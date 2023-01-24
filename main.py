@@ -1,11 +1,10 @@
-import json
 import random
 from datetime import datetime
 from datetime import timedelta
 
 from flask import Flask, Response, request
 
-from stuff import Thing, get_things
+from stuff import get_things
 
 app = Flask(__name__)
 
@@ -19,7 +18,7 @@ def index():
     args = request.args
 
     if args and (not '0' in args or not '1' in args):
-        return Response("", status=400)
+        return Response("Invalid request", status=400)
     elif args:
         # id of thing to downvote/upvote
         downvote_id = args['0']
