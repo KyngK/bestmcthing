@@ -3,10 +3,17 @@ from datetime import datetime
 from datetime import timedelta
 
 from flask import Flask, Response, request
+from flask_limiter import Limiter
+from flask_limiter.util import get_remote_address
 
 from stuff import get_things
 
 app = Flask(__name__)
+limiter = Limiter(
+    get_remote_address,
+    app=app,
+    default_limits=["1 per second", "1000 per day"]
+)
 
 
 # flask app
