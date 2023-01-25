@@ -1,12 +1,14 @@
+import pickle
 import random
-from datetime import datetime
-from datetime import timedelta
+import threading
+import time
+from datetime import datetime, timedelta
 
 from flask import Flask, Response, request
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
-from stuff import get_things
+from stuff import get_things, Vote
 
 app = Flask(__name__)
 limiter = Limiter(
@@ -25,7 +27,29 @@ def index():
     args = request.args
 
     if args and (not '0' in args or not '1' in args):
+        votes.append(
+            Vote(
+                address=get_remote_address(),
+                request=request,
+                valid=False,
+                vote_time=datetime.now(),
+                winner=None,
+                loser=None,
+            )
+        )
+
         return Response("Invalid request", status=400)
+    elif 'skip' in args:
+        votes.append(
+            Vote(
+                address=get_remote_address(),
+                request=request,
+                valid=True,
+                vote_time=datetime.now(),
+                winner=None,
+                loser=None
+            )
+        )
     elif args:
         # id of thing to downvote/upvote
         downvote_id = args['0']
@@ -50,6 +74,17 @@ def index():
             upvote.score += 1
 
             buffer.remove(matched_set)
+
+            votes.append(
+                Vote(
+                    address=get_remote_address(),
+                    request=request,
+                    valid=True,
+                    vote_time=datetime.now(),
+                    winner=upvote,
+                    loser=downvote
+                )
+            )
         except IndexError:
             ... # discretely reject but log TODO
 
@@ -72,9 +107,24 @@ def index():
     return [thing1.json, thing2.json]
 
 
+def save(votes):
+    last = None
+    while True:
+        if not last == pickle.dumps(votes):
+            filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
+            with open(filename, 'wb') as file:
+                pickle.dump(votes, file)
+        
+        last = pickle.dumps(votes)
+        time.sleep(3600)
+
 if __name__ == "__main__":
     # open file and create a list of things
     buffer = []
+    votes = []
     things = get_things('./things.json')
+
+    save_thread = threading.Thread(target=save, args=(votes,))
+    save_thread.start()
 
     app.run(host="localhost", port=8080, debug=True)

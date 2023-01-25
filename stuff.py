@@ -1,5 +1,6 @@
 import json
 import uuid
+from datetime import datetime
 
 
 class Thing:
@@ -17,6 +18,24 @@ class Thing:
         self.impressions = 0
         self.votes = 0
         self.score = 0
+
+
+class Vote:
+    def __init__(self,
+        address,
+        request,
+        valid: bool,
+        vote_time: datetime,
+        winner: Thing,
+        loser: Thing,
+    ):
+        self.address = address
+        self.request = request
+        self.valid = valid
+        self.vote_time = vote_time
+
+        self.winner = winner
+        self.loser = loser
 
 
 def get_things(path):
