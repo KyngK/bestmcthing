@@ -109,10 +109,12 @@ def index():
     buffer.append({thing1, thing2, expire_time})
     return [thing1.json, thing2.json]
 
-@app.route("/assests/pack.jpeg")
+@app.route("/assets/pack.jpeg")
 def getImage():
-    return send_file("assests/pack.jpeg", mimetype="image/jpeg")
-
+    return send_file("assets/pack.jpeg", mimetype="image/jpeg")
+@app.route("/assets/dirt.png")
+def getImage2():
+    return send_file("assets/dirt.png", mimetype="image/png")
 def save():
     global votes
     global things
