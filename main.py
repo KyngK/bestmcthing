@@ -3,8 +3,9 @@ import random
 import threading
 import time
 from datetime import datetime, timedelta
+from os import path, makedirs
 
-from flask import Flask, Response, request
+from flask import Flask, Response, request, send_file
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
@@ -19,7 +20,7 @@ limiter = Limiter(
 
 
 # flask app
-@app.route("/")
+@app.route("/api")
 def index():
     global buffer
     global things
@@ -106,12 +107,18 @@ def index():
     buffer.append({thing1, thing2, expire_time})
     return [thing1.json, thing2.json]
 
+@app.route("/assests/pack.jpeg")
+def getImage():
+    return send_file("assests/pack.jpeg", mimetype="image/jpeg")
 
 def save(votes):
     last = None
     while True:
         if not last == pickle.dumps(votes):
             filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
+            # make sure logs dir exists
+            if not path.isdir("./logs"): 
+                makedirs("./logs")
             with open(filename, 'wb') as file:
                 pickle.dump(votes, file)
         
