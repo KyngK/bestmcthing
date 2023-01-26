@@ -7,6 +7,7 @@ from datetime import datetime, timedelta
 from flask import Flask, Response, request, g
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+from waitress import serve
 
 from stuff import get_things, Vote
 
@@ -131,4 +132,5 @@ if __name__ == "__main__":
     save_thread = threading.Thread(target=save)
     save_thread.start()
 
-    app.run(host="localhost", port=8080, debug=True)
+    #app.run(host="localhost", port=8080, debug=True)
+    serve(app)
