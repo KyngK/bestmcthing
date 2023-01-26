@@ -4,7 +4,7 @@ import threading
 import time
 from datetime import datetime, timedelta
 
-from flask import Flask, Response, request
+from flask import Flask, Response, request, g
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
@@ -57,11 +57,12 @@ def index():
 
         # retrieve matching things
         try:
-            downvote = [thing for thing in things if thing.id == downvote_id][0]
-            upvote = [thing for thing in things if thing.id == upvote_id][0]
+            # raises StopIteration if there is no matching
+            downvote = next(thing for thing in things if thing.id == downvote_id)
+            upvote = next(thing for thing in things if thing.id == upvote_id)
 
             sent_set = {downvote, upvote}
-            matched_set = [s for s in buffer if sent_set & s == sent_set][0]
+            matched_set = next(s for s in buffer if sent_set & s == sent_set)
 
             # check expiration time
             expire_time = list(matched_set - sent_set)[0]
@@ -85,7 +86,7 @@ def index():
                     loser=downvote
                 )
             )
-        except IndexError:
+        except StopIteration:
             ... # discretely reject but log TODO
 
     # return two random things
@@ -107,15 +108,18 @@ def index():
     return [thing1.json, thing2.json]
 
 
-def save(votes):
-    last = None
-    while True:
-        if not last == pickle.dumps(votes):
-            filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}"
-            with open(filename, 'wb') as file:
-                pickle.dump(votes, file)
-        
-        last = pickle.dumps(votes)
+def save():
+    global votes
+    global things
+
+    filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_v.pkl"
+    with open(filename, 'wb') as file:
+        pickle.dump(votes, file)
+    
+    filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_t.pkl"
+    with open(filename, 'wb') as file:
+        pickle.dump(things, file)
+    
         time.sleep(3600)
 
 if __name__ == "__main__":
@@ -124,7 +128,7 @@ if __name__ == "__main__":
     votes = []
     things = get_things('./things.json')
 
-    save_thread = threading.Thread(target=save, args=(votes,))
+    save_thread = threading.Thread(target=save)
     save_thread.start()
 
     app.run(host="localhost", port=8080, debug=True)
