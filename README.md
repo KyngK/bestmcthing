@@ -16,7 +16,7 @@ The site is currently a work in progress, but will feature a design similar to T
 At the end, whichever thing has the most points is declared the best.
 
 ## Backend (temporary notes)
-To install, clone the repository and install the requirements. `python main.py` to start it on `localhost:8080`
+To install, clone the repository and install the requirements. `cd backend` and `python main.py` to start it on `localhost:8080`
 
 Requesting is simple:
 The API is available at `localhost:8080/api`. When the user initially starts voting, you make an http get request to the base page (`localhost:8080/api` if you're developing locally), and that gives you a JSON list. That list contains two dictionaries, each of which contains the item info (image, url, title, summary, id). When the user votes, you send back a get request to `localhost:8080/api?0=id&1=id`. The two parameters are `0` and `1`. `0` indicates the ID of the item the user wants to downvote, and `1` indicates the ID of the item the user wants to upvote. The backend then saves this info, and sends back (with that same request) another set of items, and the cycle continues. If the user leaves, and doesn't vote for an item after an hour, the ID won't be valid anymore. Also if you send a request with IDs that haven't been requested, or IDs that were requested then voted with, the website will send back 400 (bad request) to prevent spam; you can only vote for things you've already requested. If the user wants to skip you can send a skip parameter (`localhost:8080/api?0=id&1=id&skip`) and the backend will ignore it.
