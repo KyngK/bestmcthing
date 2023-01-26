@@ -1,4 +1,4 @@
-# mcwiki
+# bestmcthing
 A small collaborative project, inspired by [this](https://www.youtube.com/watch?v=ALy6e7GbDRQ) video by Tom Scott, in an attempt to find the best Minecraft thing.
 
 ## Scraping
