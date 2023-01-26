@@ -109,9 +109,9 @@ def index():
     buffer.append({thing1, thing2, expire_time})
     return [thing1.json, thing2.json]
 
-@app.route("/assests/pack.jpeg")
-def getImage():
-    return send_file("assests/pack.jpeg", mimetype="image/jpeg")
+@app.route("/assets/pack.jpeg")
+def get_image():
+    return send_file("../assets/pack.jpeg", mimetype="image/jpeg")
 
 def save():
     global votes
@@ -140,4 +140,4 @@ if __name__ == "__main__":
     save_thread.start()
 
     #app.run(host="localhost", port=8080, debug=True)
-    serve(app)
+    serve(app, listen='*:8080')
