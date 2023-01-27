@@ -31,7 +31,6 @@ def index():
         votes.append(
             Vote(
                 address=get_remote_address(),
-                request=request,
                 valid=False,
                 vote_time=datetime.now(),
                 winner=None,
@@ -44,7 +43,6 @@ def index():
         votes.append(
             Vote(
                 address=get_remote_address(),
-                request=request,
                 valid=True,
                 vote_time=datetime.now(),
                 winner=None,
@@ -80,7 +78,6 @@ def index():
             votes.append(
                 Vote(
                     address=get_remote_address(),
-                    request=request,
                     valid=True,
                     vote_time=datetime.now(),
                     winner=upvote,
@@ -125,15 +122,21 @@ def save():
     if not os.path.isdir("./logs"): 
         os.makedirs("./logs")
 
-    filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_v.pkl"
-    with open(filename, 'wb') as file:
-        pickle.dump(votes, file)
-    
-    filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_t.pkl"
-    with open(filename, 'wb') as file:
-        pickle.dump(things, file)
-    
-        time.sleep(3600)
+    num = 0
+
+    while True:
+        num += 1
+
+        filename = f"./logs/{num}_v.pkl"
+        with open(filename, 'wb') as file:
+            pickle.dump(votes, file)
+        
+        filename = f"./logs/{num}_t.pkl"
+        with open(filename, 'wb') as file:
+            pickle.dump(things, file)
+        
+            #time.sleep(3600)
+            time.sleep(10)
 
 if __name__ == "__main__":
     # open file and create a list of things
