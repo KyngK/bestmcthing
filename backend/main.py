@@ -110,11 +110,14 @@ def index():
     return [thing1.json, thing2.json]
 
 @app.route("/assets/pack.jpeg")
-def getImage():
+def pack_image():
     return send_file("../assets/pack.jpeg", mimetype="image/jpeg")
+
 @app.route("/assets/dirt.png")
-def getImage2():
+def dirt_image():
     return send_file("../assets/dirt.png", mimetype="image/png")
+
+
 def save():
     global votes
     global things
