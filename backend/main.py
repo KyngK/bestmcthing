@@ -1,16 +1,15 @@
+import os
 import pickle
 import random
 import threading
 import time
 from datetime import datetime, timedelta
-from os import path, makedirs
 
 from flask import Flask, Response, request, send_file
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+from stuff import Vote, get_things
 from waitress import serve
-
-from stuff import get_things, Vote
 
 app = Flask(__name__)
 limiter = Limiter(
@@ -123,8 +122,9 @@ def save():
     global things
 
     # make sure logs dir exists
-    if not path.isdir("./logs"): 
-        makedirs("./logs")
+    if not os.path.isdir("./logs"): 
+        os.makedirs("./logs")
+
     filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_v.pkl"
     with open(filename, 'wb') as file:
         pickle.dump(votes, file)
