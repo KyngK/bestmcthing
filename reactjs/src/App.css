@@ -31,6 +31,30 @@
 .vcenter{
   margin: auto;
 }
+button {
+  padding-top: 4px;
+  padding-bottom: 8px ;
+	width: 300pt;
+
+	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
+	image-rendering: pixelated;
+	border: 2px solid #000;
+
+  text-shadow: 2px 2px #000A;
+	color: #FFFFFF;
+  font-family: Minecraftia;
+  font-size: 16pt;
+  box-shadow: inset -2px -4px #0006, inset 2px 2px #FFF7;
+
+  margin-bottom: 20px;
+}
+button:hover{
+  background-color: rgba(100, 100, 255, .45);
+  text-shadow: 2px 2px #202013CC;
+}
+button:active{
+  box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
+}
 .center{
   margin-left: auto;
   margin-right: auto;
@@ -45,20 +69,16 @@ body{
 h3{
   font-family: Minecraftia;
   color: #ffffff;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #8b8b8b;
+  text-shadow: 4px 4px #000A;
+  font-size: 20px;
 }
 
 .thing {
+
+  box-shadow: inset 12px 12px #373737, inset -12px -12px #ffffff;
   
   background-color: #8b8b8b;
   display: block;
-  border-top-color: #373737;
-  border-left-color: #373737;
-  border-right-color: #ffffff;
-  border-bottom-color: #ffffff;
-  border-width: 12px;
-  border-style: solid;
   padding: 3%;
   margin-left: auto;
   margin-right: auto;
