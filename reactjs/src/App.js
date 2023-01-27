@@ -1,9 +1,12 @@
 import React, {useState, useEffect}  from "react";
 
+
+
 function App() {
 
 
   var [data, setData] = useState([{}])
+  const [light, setlight] = React.useState(false);
 
   useEffect(() => {
     fetch("/api").then(
@@ -15,6 +18,10 @@ function App() {
       }
     )
   }, [])
+
+  const onCheck = () =>{
+    setlight(!light);
+  }
 
   const vote = (id0, id1, skip) =>{
     fetch("/api?0=".concat(id0, "&1=", id1, (skip)?("&skip"):("")))
@@ -30,41 +37,48 @@ function App() {
 
 
   return (
-    <div>
+    <div class={(light)?("bg-light"):("bg-dark")}>
+      <div class={(light)?(""):("overlay")}>
 	    {(data[1] === undefined) ?
         (<h1>Loading</h1>)
         :
         (<div class="container-fluid">
           <div class="row">
+            <input class="toggletheme" type="image" src="https://cdn-icons-png.flaticon.com/512/6803/6803223.png" alt="toggle theme"></input>
 		      <div class="center col-md-12">
+            <img class="title" alt="THE BEST THING" src="https://i.imgur.com/lHRDVRv.png"/>
 			      <div class="page-header">
-				      <h1>
+				      <h3 class={(light)?("txt-light"):("txt-dark")}>
 					      Which is better??
-				      </h1>
+				      </h3>
   			    </div>
 	  	    </div>
 	      </div>
 	      <div class="row">
           <div class="center col-md-5">
             <div class="img">
-            <a href={data[0].url}><img alt={data[0].title} src={(data[0].image == null)? "/assets/pack.jpeg" : data[0].image.slice(0, -35)} class="thing" /></a>
+            <a target="_blank" rel="noopener noreferrer" href={data[0].url}><img alt={data[0].title} src={(data[0].image == null)? "https://i.imgur.com/OzRR1xv.jpg" : data[0].image.slice(0, -35)} class="thing" /></a>
             </div>
             <button type="button" onClick={() => vote(data[1].id, data[0].id, false)}>
               {data[0].title}
             </button>
-            <h3>
+            <h3 class={(light)?("txt-light"):("txt-dark")}>
               {data[0].summary}
             </h3>
 		      </div>
-          <div class="vcenter col-md-2">
+          <div class="vcenter center col-md-2">
             <img alt="Versus" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Street_Fighter_VS_logo.png" />
+            <label class={(light)?("txt-light center"):("txt-dark center")}>
+              <input type="checkbox" checked={light} onChange={onCheck}></input>
+                  Light theme
+            </label>
           </div>
           <div class="center col-md-5">
-            <a href={data[1].url}><img alt={data[1].title} src={(data[1].image == null)? "/assets/pack.jpeg" : data[1].image.slice(0, -35)} class="thing"/></a>
+            <a target="_blank" rel="noopener noreferrer" href={data[1].url}><img alt={data[1].title} src={(data[1].image == null)? "https://i.imgur.com/OzRR1xv.jpg" : data[1].image.slice(0, -35)} class="thing"/></a>
             <button type="button" onClick={() => vote(data[0].id, data[1].id, false)}>
               {data[1].title}
             </button>
-            <h3>
+            <h3 class={(light)?("txt-light"):("txt-dark")}>
               {data[1].summary}
             </h3>
 		      </div>
@@ -77,6 +91,7 @@ function App() {
 		    </div>
 	    </div>
       </div>)}
+      </div>
     </div>
   );
 }

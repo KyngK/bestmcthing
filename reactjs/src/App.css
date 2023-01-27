@@ -60,17 +60,44 @@ button:active{
   margin-right: auto;
   text-align: center;
 }
-
-body{
-  background-image: url("http://localhost:8080/assets/dirt.png");
+.title{
+  margin-bottom: 12px;
+  width: 65%;
+  height: 65%;
+  image-rendering: optimizeQuality;
+}
+.overlay{
+  background-color: #0008;
+}
+.bg-light{
+  background-image: url("https://i.imgur.com/2FcBVnr.png");
   background-size: 5%;
   image-rendering: pixelated;
 }
-h3{
-  font-family: Minecraftia;
+.bg-dark{
+  background-image: url("https://i.imgur.com/K1is4eL.png");
+  background-size: 5%;
+  image-rendering: pixelated;
+}
+.txt-dark{
   color: #ffffff;
   text-shadow: 4px 4px #000A;
+}
+.txt-light{
+  color: #000;
+  text-shadow: 4px 4px #00000020;
+}
+label{
+  font-family: Minecraftia;
+  font-size: 12px;
+}
+h3{
+  font-family: Minecraftia;
   font-size: 20px;
+}
+.toggletheme{
+  height: 5%;
+  width: 5%;
 }
 
 .thing {
