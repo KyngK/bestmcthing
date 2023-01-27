@@ -1,16 +1,15 @@
+import os
 import pickle
 import random
 import threading
 import time
 from datetime import datetime, timedelta
-from os import path, makedirs
 
 from flask import Flask, Response, request, send_file
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
+from stuff import Vote, get_things
 from waitress import serve
-
-from stuff import get_things, Vote
 
 app = Flask(__name__)
 limiter = Limiter(
@@ -32,7 +31,6 @@ def index():
         votes.append(
             Vote(
                 address=get_remote_address(),
-                request=request,
                 valid=False,
                 vote_time=datetime.now(),
                 winner=None,
@@ -45,7 +43,6 @@ def index():
         votes.append(
             Vote(
                 address=get_remote_address(),
-                request=request,
                 valid=True,
                 vote_time=datetime.now(),
                 winner=None,
@@ -81,7 +78,6 @@ def index():
             votes.append(
                 Vote(
                     address=get_remote_address(),
-                    request=request,
                     valid=True,
                     vote_time=datetime.now(),
                     winner=upvote,
@@ -110,27 +106,37 @@ def index():
     return [thing1.json, thing2.json]
 
 @app.route("/assets/pack.jpeg")
-def getImage():
+def pack_image():
     return send_file("../assets/pack.jpeg", mimetype="image/jpeg")
+
 @app.route("/assets/dirt.png")
-def getImage2():
+def dirt_image():
     return send_file("../assets/dirt.png", mimetype="image/png")
+
+
 def save():
     global votes
     global things
 
     # make sure logs dir exists
-    if not path.isdir("./logs"): 
-        makedirs("./logs")
-    filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_v.pkl"
-    with open(filename, 'wb') as file:
-        pickle.dump(votes, file)
-    
-    filename = f"./logs/{datetime.now().strftime('%Y-%m-%d_%H-%M-%S')}_t.pkl"
-    with open(filename, 'wb') as file:
-        pickle.dump(things, file)
-    
-        time.sleep(3600)
+    if not os.path.isdir("./logs"): 
+        os.makedirs("./logs")
+
+    num = 0
+
+    while True:
+        num += 1
+
+        filename = f"./logs/{num}_v.pkl"
+        with open(filename, 'wb') as file:
+            pickle.dump(votes, file)
+        
+        filename = f"./logs/{num}_t.pkl"
+        with open(filename, 'wb') as file:
+            pickle.dump(things, file)
+        
+            #time.sleep(3600)
+            time.sleep(10)
 
 if __name__ == "__main__":
     # open file and create a list of things
