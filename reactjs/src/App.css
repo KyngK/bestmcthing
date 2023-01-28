@@ -61,9 +61,9 @@ button:active{
   text-align: center;
 }
 .title{
+  margin-top: 24px;
   margin-bottom: 12px;
-  width: 65%;
-  height: 65%;
+  height: 45%;
   image-rendering: optimizeQuality;
 }
 .overlay{
@@ -87,17 +87,12 @@ button:active{
   color: #000;
   text-shadow: 4px 4px #00000020;
 }
-label{
-  font-family: Minecraftia;
-  font-size: 12px;
-}
 h3{
   font-family: Minecraftia;
   font-size: 20px;
 }
 .toggletheme{
-  height: 5%;
-  width: 5%;
+  height: 120px;
 }
 
 .thing {

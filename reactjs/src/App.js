@@ -44,15 +44,19 @@ function App() {
         :
         (<div class="container-fluid">
           <div class="row">
-            <input class="toggletheme" type="image" src="https://cdn-icons-png.flaticon.com/512/6803/6803223.png" alt="toggle theme"></input>
-		      <div class="center col-md-12">
+          <div class="col-md-2">
+            <input class="toggletheme" onClick={onCheck} type="image" src={(light)?("https://i.imgur.com/rvXYKZ9.png"):("https://i.imgur.com/OWXmoUk.png")} alt="toggle theme"></input>
+            </div>
+		      <div class="center col-md-8">
             <img class="title" alt="THE BEST THING" src="https://i.imgur.com/lHRDVRv.png"/>
 			      <div class="page-header">
 				      <h3 class={(light)?("txt-light"):("txt-dark")}>
-					      Which is better??
+					      Which is better?
 				      </h3>
   			    </div>
 	  	    </div>
+          <div class="col-md-2">
+            </div>
 	      </div>
 	      <div class="row">
           <div class="center col-md-5">
@@ -68,10 +72,6 @@ function App() {
 		      </div>
           <div class="vcenter center col-md-2">
             <img alt="Versus" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Street_Fighter_VS_logo.png" />
-            <label class={(light)?("txt-light center"):("txt-dark center")}>
-              <input type="checkbox" checked={light} onChange={onCheck}></input>
-                  Light theme
-            </label>
           </div>
           <div class="center col-md-5">
             <a target="_blank" rel="noopener noreferrer" href={data[1].url}><img alt={data[1].title} src={(data[1].image == null)? "https://i.imgur.com/OzRR1xv.jpg" : data[1].image.slice(0, -35)} class="thing"/></a>
