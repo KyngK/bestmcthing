@@ -2,11 +2,6 @@
   "name": "reactjs",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://127.0.0.1:8080/",
-  "options": {
-    "allowedHosts": ["localhost", ".localhost"],
-    "proxy": "http://127.0.0.1:8080/"
-  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -20,7 +15,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "HTTPS=true <strong>SSL_CRT_FILE=./reactcert/bestthingmc.pem SSL_KEY_FILE=./reactcert/bestthingmc.key</strong> react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
