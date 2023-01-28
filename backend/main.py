@@ -135,8 +135,7 @@ def save():
         with open(filename, 'wb') as file:
             pickle.dump(things, file)
         
-            #time.sleep(3600)
-            time.sleep(10)
+            time.sleep(3600)
 
 if __name__ == "__main__":
     # open file and create a list of things
