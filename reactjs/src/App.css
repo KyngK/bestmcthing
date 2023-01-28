@@ -32,9 +32,15 @@
   margin: auto;
 }
 button {
-  padding-top: 4px;
-  padding-bottom: 8px ;
+  padding-top: 8px;
+  padding-bottom: 12px ;
+  height: 45pt;
 	width: 300pt;
+
+  cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+	user-select: none;
 
 	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
 	image-rendering: pixelated;
