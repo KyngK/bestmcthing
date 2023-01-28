@@ -32,9 +32,15 @@
   margin: auto;
 }
 button {
-  padding-top: 4px;
-  padding-bottom: 8px ;
+  padding-top: 8px;
+  padding-bottom: 12px ;
+  height: 45pt;
 	width: 300pt;
+
+  cursor: pointer;
+	overflow: hidden;
+	white-space: nowrap;
+	user-select: none;
 
 	background: #999 url('https://i.ibb.co/rb2TWXL/bgbtn.png') center / cover;
 	image-rendering: pixelated;
@@ -61,9 +67,9 @@ button:active{
   text-align: center;
 }
 .title{
+  margin-top: 24px;
   margin-bottom: 12px;
-  width: 65%;
-  height: 65%;
+  height: 45%;
   image-rendering: optimizeQuality;
 }
 .overlay{
@@ -87,17 +93,12 @@ button:active{
   color: #000;
   text-shadow: 4px 4px #00000020;
 }
-label{
-  font-family: Minecraftia;
-  font-size: 12px;
-}
 h3{
   font-family: Minecraftia;
   font-size: 20px;
 }
 .toggletheme{
-  height: 5%;
-  width: 5%;
+  height: 120px;
 }
 
 .thing {
