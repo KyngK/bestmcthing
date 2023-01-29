@@ -1,6 +1,5 @@
 import React, {useState, useEffect}  from "react";
-
-
+import {Helmet} from "react-helmet";
 
 function App() {
 
@@ -64,6 +63,12 @@ function App() {
 
   return (
     <div class={(light)?("bg-light"):("bg-dark")}>
+      <Helmet>
+        <title>Best Minecraft Thing</title>
+        <meta name="description" content="What is the best Minecraft thing to ever exist? Vote on this website, and find out which is better."></meta>
+        <meta name="author" content="EPIC DEV TEAM LET'S GO"></meta>
+        <meta name="keywords" content="minecraft best thing mc tom scott dukky vote dream" />
+      </Helmet>
       <div class={(light)?(""):("overlay")}>
       <div class="container-fluid">
           <div class="row">
