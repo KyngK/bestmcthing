@@ -31,11 +31,15 @@
 .vcenter{
   margin: auto;
 }
+.adj{
+  display: inline-block;
+}
 button {
   padding-top: 8px;
   padding-bottom: 12px ;
   height: 45pt;
 	width: 300pt;
+  max-width: 90vw;
 
   cursor: pointer;
 	overflow: hidden;
@@ -54,6 +58,9 @@ button {
 
   margin-bottom: 20px;
 }
+.vs{
+  max-width: 30vh;
+}
 button:hover{
   background-color: rgba(100, 100, 255, .45);
   text-shadow: 2px 2px #202013CC;
@@ -67,30 +74,37 @@ button:active{
   text-align: center;
 }
 .title{
-  margin-top: 24px;
-  margin-bottom: 12px;
+  margin-top: 4vh;
+  margin-bottom: 2vh;
   height: 45%;
   image-rendering: optimizeQuality;
+  max-width: 85vw;
 }
 .overlay{
   background-color: #0008;
   height: 100%;
   min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
 }
 .bg-light{
   background-image: url("https://i.imgur.com/2FcBVnr.png");
-  background-size: 5%;
+  background-size: 15vh;
   image-rendering: pixelated;
   
   height: 100%;
   min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
 }
 .bg-dark{
   background-image: url("https://i.imgur.com/K1is4eL.png");
-  background-size: 5%;
+  background-size: 15vh;
   image-rendering: pixelated;
   height: 100%;
   min-height: 100vh;
+  min-width: 100vw;
+  width: 100%;
 }
 .txt-dark{
   color: #ffffff;
@@ -102,10 +116,13 @@ button:active{
 }
 h3{
   font-family: Minecraftia;
-  font-size: 20px;
+  font-size: 3vh;
 }
 .toggletheme{
-  height: 120px;
+  position: fixed;
+  left: -1vh;
+  top: -1vh;
+  height: 10vh;
 }
 
 .thing {
@@ -114,12 +131,13 @@ h3{
   
   background-color: #8b8b8b;
   display: block;
-  padding: 3%;
+  padding: 3vh;
   margin-left: auto;
   margin-right: auto;
   height: 300px;
   margin-top: 10px;
   margin-bottom: 30px;
+  max-height: 30vh;
 }
 
 .App-link {
