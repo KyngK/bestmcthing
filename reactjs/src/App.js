@@ -38,7 +38,7 @@ function App() {
   const delay = ms => new Promise(res => setTimeout(res, ms));
 
   const toggleDisable = async () => {
-    await delay(1000);
+    await delay(500);
     setDisabled(false);
   }
 
