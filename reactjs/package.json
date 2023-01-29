@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "sudo PORT=443 HTTPS=true SSL_CRT_FILE=./bestmcthing.pem SSL_KEY_FILE=./bestmcthing.key ./node_modules/.bin/react-scripts start",
-    "build": "react-scripts build",
+    "build": "sudo PORT=443 HTTPS=true SSL_CRT_FILE=./bestmcthing.pem SSL_KEY_FILE=./bestmcthing.key ./node_modules/.bin/react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
