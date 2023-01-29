@@ -74,16 +74,23 @@ button:active{
 }
 .overlay{
   background-color: #0008;
+  height: 100%;
+  min-height: 100vh;
 }
 .bg-light{
   background-image: url("https://i.imgur.com/2FcBVnr.png");
   background-size: 5%;
   image-rendering: pixelated;
+  
+  height: 100%;
+  min-height: 100vh;
 }
 .bg-dark{
   background-image: url("https://i.imgur.com/K1is4eL.png");
   background-size: 5%;
   image-rendering: pixelated;
+  height: 100%;
+  min-height: 100vh;
 }
 .txt-dark{
   color: #ffffff;
