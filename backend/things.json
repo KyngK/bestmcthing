@@ -14,7 +14,7 @@
     {
         "title": "Bossbar",
         "summary": "A boss bar is a bar that can track a boss mob's health.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0f/HealthBarComparison.png/revision/latest?cb=20200204144510",
         "url": "https://minecraft.fandom.com/wiki/Bossbar"
     },
     {
@@ -26,13 +26,13 @@
     {
         "title": "Tooltip",
         "summary": "A tooltip is a piece of text that appears when hovering over or focusing on certain elements in the user interfaces, or when switching the held item.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a9/ExampleTooltip.png/revision/latest?cb=20220816224528",
         "url": "https://minecraft.fandom.com/wiki/Tooltip"
     },
     {
         "title": "Bamboo (feature)",
         "summary": "A bamboo is a feature that consist of bamboo blocks, found throughout old growth taiga biomes.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Bamboo_Jungle.png/revision/latest?cb=20230112123840",
         "url": "https://minecraft.fandom.com/wiki/Bamboo_(feature)"
     },
     {
@@ -44,13 +44,13 @@
     {
         "title": "Feature",
         "summary": "Features (aka. generated features), are small decorators generated in each chunk after terrain generation",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7b/Squid_Waterfall.png/revision/latest?cb=20221217064822",
         "url": "https://minecraft.fandom.com/wiki/Feature"
     },
     {
         "title": "Narrator",
-        "summary": "Pressing Ctrl\u202f+\u202fB toggles the narrator, a text-to-speech engine that automatically reads chat messages, including the username.",
-        "image": null,
+        "summary": "Pressing Ctrl+B toggles the narrator, a text-to-speech engine that automatically reads chat messages, including the username.",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a5/NarratorToastMessage.gif/revision/latest?cb=20170502063755",
         "url": "https://minecraft.fandom.com/wiki/Narrator"
     },
     {
@@ -74,7 +74,7 @@
     {
         "title": "Minecraft Legends",
         "summary": "Minecraft Legends is an upcoming real-time action strategy video game being developed by Mojang Studios, Xbox Game Studios, and Blackbird Interactive",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/9e/Minecraft_Legends_key_art.png/revision/latest?cb=20220915023911",
         "url": "https://minecraft.fandom.com/wiki/Minecraft_Legends"
     },
     {
@@ -134,7 +134,7 @@
     {
         "title": "Swift Sneak",
         "summary": "Swift Sneak is a non-renewable enchantment that can be applied to leggings and allows the player to walk more quickly while sneaking.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Swift_Sneak"
     },
     {
@@ -146,7 +146,7 @@
     {
         "title": "Simulation distance",
         "summary": "Simulation distance is a world-creation setting in Bedrock Edition that controls mob spawning and despawning, and tick updates",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/47/Lightning_distribution_BE.png/revision/latest?cb=20211015230744",
         "url": "https://minecraft.fandom.com/wiki/Simulation_distance"
     },
     {
@@ -230,7 +230,7 @@
     {
         "title": "Sky",
         "summary": "The sky is a visual feature of Minecraft worlds.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/49/Clouds_Disabled.png/revision/latest?cb=20210216114232",
         "url": "https://minecraft.fandom.com/wiki/Sky"
     },
     {
@@ -260,7 +260,7 @@
     {
         "title": "Background",
         "summary": "The background is a decorative background of a GUI displayed in the options, end poem, etc.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c1/Dirt_background_JE2.png/revision/latest?cb=20210507124914",
         "url": "https://minecraft.fandom.com/wiki/Background"
     },
     {
@@ -290,7 +290,7 @@
     {
         "title": "Logo",
         "summary": "The Minecraft logo is used in its many forms to represent its franchise and the game.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/85/Minecraft_franchise_logo.svg/revision/latest?cb=20210922045938",
         "url": "https://minecraft.fandom.com/wiki/Logo"
     },
     {
@@ -338,7 +338,7 @@
     {
         "title": "Clay blob",
         "summary": "Clay blobs were a terrain feature that existed as a way for clay blocks to generate naturally.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/ClayBlob1.jpg/revision/latest?cb=20220604095144",
         "url": "https://minecraft.fandom.com/wiki/Clay_blob"
     },
     {
@@ -410,7 +410,7 @@
     {
         "title": "The Wild Update",
         "summary": "The Wild Update is a major update released on June 7, 2022, as Java Edition 1.19 and Bedrock Edition 1.19.0, themed around \"scary things\" and natural wilderness.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/dc/Wild_key_art.png/revision/latest?cb=20230104191823",
         "url": "https://minecraft.fandom.com/wiki/The_Wild_Update"
     },
     {
@@ -428,7 +428,7 @@
     {
         "title": "Redstone mechanics",
         "summary": "Redstone mechanics provide Minecraft with a loose analogue to electricity, which is useful for controlling and activating a variety of mechanisms.",
-        "image": null,
+        "image": "https://minecraft.fandom.com/wiki/File:Activating_a_powered_mechanism.png",
         "url": "https://minecraft.fandom.com/wiki/Redstone_mechanics"
     },
     {
@@ -452,13 +452,13 @@
     {
         "title": "Panorama",
         "summary": "The panorama (also known as the cubemap) is a slowly panning wide-angle view of a Minecraft world displayed on the main menu.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c0/Clear_panorama.png/revision/latest?cb=20220415063414",
         "url": "https://minecraft.fandom.com/wiki/Panorama"
     },
     {
         "title": "Create New World",
         "summary": "The \"Create New World\" screen is a menu screen that allows the player to create a new world.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/92/Create_New_World.png/revision/latest?cb=20211102160655",
         "url": "https://minecraft.fandom.com/wiki/Create_New_World"
     },
     {
@@ -644,13 +644,13 @@
     {
         "title": "Custom world generation",
         "summary": "Custom world generation allows data packs to change how the world generate.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/ff/World-type-custom.png/revision/latest?cb=20200524081652",
         "url": "https://minecraft.fandom.com/wiki/Custom_world_generation"
     },
     {
         "title": "Texture atlas",
         "summary": "A texture atlas, also known as a spritesheet, is an arrangement of game sprites on a single image file, used by the game to store and access associated sprites more efficiently than with individual files",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bf/1.17_Pre-release_3_blocks.png-atlas.png/revision/latest?cb=20210908005806",
         "url": "https://minecraft.fandom.com/wiki/Texture_atlas"
     },
     {
@@ -722,7 +722,7 @@
     {
         "title": "Loading world screen",
         "summary": "The loading world screen is a screen displayed when generating or loading a world",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f6/Chunk_colormap.gif/revision/latest?cb=20200729224915",
         "url": "https://minecraft.fandom.com/wiki/Loading_world_screen"
     },
     {
@@ -740,13 +740,13 @@
     {
         "title": "Caves & Cliffs",
         "summary": "Caves & Cliffs is the name of two major themed updates for Java and Bedrock editions.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/61/Caves_%26_Cliffs_cover_art.png/revision/latest?cb=20210531151921",
         "url": "https://minecraft.fandom.com/wiki/Caves_%26_Cliffs"
     },
     {
         "title": "Hitbox",
         "summary": "A hitbox defines the physical \"boundaries\" (or an approximation thereof) of a block or entity.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3f/EntitiesHitboxes.png/revision/latest?cb=20220728172418",
         "url": "https://minecraft.fandom.com/wiki/Hitbox"
     },
     {
@@ -842,13 +842,13 @@
     {
         "title": "Soul Speed",
         "summary": "Soul Speed is an enchantment that can be applied on boots and allows the player to walk more quickly on soul sand and soul soil.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Soul_Speed"
     },
     {
         "title": "Bartering",
         "summary": "Bartering is an action the player can perform with piglins to obtain various items.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/90/Piglin_Admiring_Item.png/revision/latest?cb=20200630184407",
         "url": "https://minecraft.fandom.com/wiki/Bartering"
     },
     {
@@ -956,7 +956,7 @@
     {
         "title": "Drinks",
         "summary": "Drinks are a narrow class of consumable items that can be ingested by the player in an extremely similar manner to food.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5d/Drinking_Steve.png/revision/latest?cb=20191113181006",
         "url": "https://minecraft.fandom.com/wiki/Drinks"
     },
     {
@@ -1014,12 +1014,6 @@
         "url": "https://minecraft.fandom.com/wiki/Soul_Sand_Valley"
     },
     {
-        "title": "Mob Vote",
-        "summary": "Mob Vote may refer to:\n\nThe 2017 Mob Vote\nThe 2018 China Edition Mob Vote\nThe 2020 Mob Vote\nThe 2021 Mob Vote\nThe 2022 Mob Vote",
-        "image": null,
-        "url": "https://minecraft.fandom.com/wiki/Mob_Vote"
-    },
-    {
         "title": "Predicate",
         "summary": "Predicates are JSON structures found in multiple different locations within data packs.",
         "image": null,
@@ -1028,7 +1022,7 @@
     {
         "title": "Buzzy Bees",
         "summary": "Buzzy Bees was a major update, mainly focused on bees and the items relating to them, as well as also fixing bugs from previous versions.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/44/BuzzyBeesArtwork.jpg/revision/latest?cb=20200123235048",
         "url": "https://minecraft.fandom.com/wiki/Buzzy_Bees"
     },
     {
@@ -1046,7 +1040,7 @@
     {
         "title": "Lying",
         "summary": "Lying is a body position adopted by the player and some other mobs under certain circumstances.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ae/Lying_Steve.png/revision/latest?cb=20190918165500",
         "url": "https://minecraft.fandom.com/wiki/Lying"
     },
     {
@@ -1094,13 +1088,13 @@
     {
         "title": "Sitting",
         "summary": "Sitting is a game mechanic used by the player and some mobs under specific circumstances.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f4/Sitting_Steve.png/revision/latest?cb=20191006224212",
         "url": "https://minecraft.fandom.com/wiki/Sitting"
     },
     {
         "title": "Crawling",
         "summary": "Crawling is a mechanic that prevents the player from suffocating when inside small gaps",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/84/Swimming_Steve.png/revision/latest?cb=20190919172717",
         "url": "https://minecraft.fandom.com/wiki/Crawling"
     },
     {
@@ -1112,7 +1106,7 @@
     {
         "title": "Nether Update",
         "summary": "The Nether Update is a major update themed around revamping the Nether.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bb/NetherUpdateArtwork.png/revision/latest?cb=20210213160642",
         "url": "https://minecraft.fandom.com/wiki/Nether_Update"
     },
     {
@@ -1124,7 +1118,7 @@
     {
         "title": "Minecraft Earth",
         "summary": "Minecraft Earth was a free-to-play augmented reality (AR) spin-off mobile game developed by Mojang Studios and published by Xbox Game Studios for iOS, iPadOS, and Android",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e6/MCE_Key_Art_1.jpg/revision/latest?cb=20220827004615",
         "url": "https://minecraft.fandom.com/wiki/Minecraft_Earth"
     },
     {
@@ -1136,7 +1130,7 @@
     {
         "title": "Minecraft Dungeons",
         "summary": "Minecraft Dungeons is an action-adventure role-playing video game developed by Mojang Studios, Xbox Game Studios and Double Eleven.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ab/DungeonsBanner.jpg/revision/latest?cb=20220914224958",
         "url": "https://minecraft.fandom.com/wiki/Minecraft_Dungeons"
     },
     {
@@ -1220,7 +1214,7 @@
     {
         "title": "Patrol",
         "summary": "A patrol\u200c or pillager patrol\u200c is a rare, naturally-spawning group of pillagers.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b3/Illager_patrol.png/revision/latest?cb=20200816083810",
         "url": "https://minecraft.fandom.com/wiki/Patrol"
     },
     {
@@ -1286,7 +1280,7 @@
     {
         "title": "Piercing",
         "summary": "Piercing is an enchantment applied to a crossbow that causes arrows to pierce through entities.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Piercing"
     },
     {
@@ -1304,13 +1298,13 @@
     {
         "title": "Quick Charge",
         "summary": "Quick Charge is an enchantment for quickly reloading a crossbow.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Quick_Charge"
     },
     {
         "title": "Multishot",
         "summary": "Multishot is an enchantment for crossbows that allow them to shoot three arrows or firework rockets at the cost of one.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Multishot"
     },
     {
@@ -1382,7 +1376,7 @@
     {
         "title": "Waterlogging",
         "summary": "Waterlogging is the mechanic that allows non-cube blocks (that is, blocks that do not completely fill their block volume, such as doors, ladders, and plants) to be filled with a water source block.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/92/Waterlogged_Oak_Fence.png/revision/latest?cb=20190623182718",
         "url": "https://minecraft.fandom.com/wiki/Waterlogging"
     },
     {
@@ -1430,7 +1424,7 @@
     {
         "title": "Village & Pillage",
         "summary": "Village & Pillage was a major update themed around revamping villages that was released for versions of Minecraft in 2019, with the exception of the Xbox 360 Edition, Xbox One Edition, PlayStation 3 Edition, PlayStation Vita Edition, Wii U Edition, and New Nintendo 3DS Edition.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/98/Village_%26_Pillage_banner.png/revision/latest?cb=20200125003338",
         "url": "https://minecraft.fandom.com/wiki/Village_%26_Pillage"
     },
     {
@@ -1442,7 +1436,7 @@
     {
         "title": "Swimming",
         "summary": "Swimming is a form of transportation that allows the player to move in water.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/84/Swimming_Steve.png/revision/latest?cb=20190919172717",
         "url": "https://minecraft.fandom.com/wiki/Swimming"
     },
     {
@@ -1496,7 +1490,7 @@
     {
         "title": "Riptide",
         "summary": "Riptide is an enchantment exclusive to tridents, which hurls the user in the direction the user is facing, but only when they are wet.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Riptide"
     },
     {
@@ -1526,13 +1520,13 @@
     {
         "title": "Impaling",
         "summary": "Impaling is an enchantment for a trident, causing the trident to deal extra damage on each hit against aquatic mobs\u200c, or extra damage to mobs in water\u200c.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Impaling"
     },
     {
         "title": "Loyalty",
         "summary": "Loyalty is an enchantment applying to a trident, causing it to return to the owner once thrown",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Loyalty"
     },
     {
@@ -1574,7 +1568,7 @@
     {
         "title": "China Edition",
         "summary": "Minecraft: China Edition is a localized edition of Java and Bedrock editions for mainland China, developed by Mojang Studios and NetEase",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/12/Mccn-icon.png/revision/latest?cb=20191230064151",
         "url": "https://minecraft.fandom.com/wiki/China_Edition"
     },
     {
@@ -1736,7 +1730,7 @@
     {
         "title": "Update Aquatic",
         "summary": "The Update Aquatic is the name for a major update that was released for most versions of Minecraft in 2018, with the exception of the Xbox One, Nintendo Switch, and New Nintendo 3DS editions.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/Update_Aquatic.jpg/revision/latest?cb=20180718221207",
         "url": "https://minecraft.fandom.com/wiki/Update_Aquatic"
     },
     {
@@ -1850,7 +1844,7 @@
     {
         "title": "Arthropods",
         "summary": "The term arthropod refers to an in-game classification regrouping all bug-like mobs.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c6/Arthropod_Mobs.png/revision/latest?cb=20210926190445",
         "url": "https://minecraft.fandom.com/wiki/Arthropods"
     },
     {
@@ -1904,13 +1898,13 @@
     {
         "title": "Sweeping Edge",
         "summary": "Sweeping Edge is a sword enchantment that increases sweep attack damage.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Sweeping_Edge"
     },
     {
         "title": "Curse of Binding",
         "summary": "Curse of Binding is an enchantment that prevents removal of a cursed item from its armor slot.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Curse_of_Binding"
     },
     {
@@ -1922,7 +1916,7 @@
     {
         "title": "Curse of Vanishing",
         "summary": "Curse of Vanishing is an enchantment that causes the item to disappear upon death.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Curse_of_Vanishing"
     },
     {
@@ -1934,13 +1928,13 @@
     {
         "title": "Illager",
         "summary": "An illager is a type of hostile mob that regularly spawns in woodland mansions, patrols, raids, and pillager outposts",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/03/Illager_Mob_and_Banner.png/revision/latest?cb=20211016071437",
         "url": "https://minecraft.fandom.com/wiki/Illager"
     },
     {
         "title": "Recipe book",
         "summary": "The recipe book is a mechanic in Minecraft that serves as a catalog of recipes and as a crafting, smelting, and banner patterning guide.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/02/Crafting_Recipe_Book_%28inventory%29.png/revision/latest?cb=20200906210324",
         "url": "https://minecraft.fandom.com/wiki/Recipe_book"
     },
     {
@@ -2024,7 +2018,7 @@
     {
         "title": "Exploration Update",
         "summary": "The Exploration Update is the name for Java Edition version 1.11, a major update released on November 14, 2016.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/99/ExplorationUpdateFull.jpeg/revision/latest?cb=20210817110727",
         "url": "https://minecraft.fandom.com/wiki/Exploration_Update"
     },
     {
@@ -2036,7 +2030,7 @@
     {
         "title": "Frostburn Update",
         "summary": "The Frostburn Update is the name for Java Edition 1.10, a major update released on \nJune 8, 2016.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b9/Frostburn_Update.png/revision/latest?cb=20200107042948",
         "url": "https://minecraft.fandom.com/wiki/Frostburn_Update"
     },
     {
@@ -2132,13 +2126,13 @@
     {
         "title": "Mending",
         "summary": "Mending is an enchantment that restores durability of an item using experience.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Mending"
     },
     {
         "title": "Frost Walker",
         "summary": "Frost Walker is an enchantment to boots that creates frosted ice blocks when walking over water, and causes the wearer to be immune to damage from certain blocks such as campfires and magma blocks when stepped on.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Frost_Walker"
     },
     {
@@ -2306,7 +2300,7 @@
     {
         "title": "Combat Update",
         "summary": "The Combat Update is the name for Java Edition version 1.9, a major update released on Monday, February 29, 2016.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/6d/Combat_Update.png/revision/latest?cb=20200106062628",
         "url": "https://minecraft.fandom.com/wiki/Combat_Update"
     },
     {
@@ -2396,7 +2390,7 @@
     {
         "title": "Bountiful Update",
         "summary": "The Bountiful Update is the name for Java Edition version 1.8, a major update that was released on Tuesday, September 2, 2014.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/9b/The_Bountiful_Update.png/revision/latest?cb=20210228131702",
         "url": "https://minecraft.fandom.com/wiki/Bountiful_Update"
     },
     {
@@ -2419,14 +2413,14 @@
     },
     {
         "title": "Chest loot",
-        "summary": "This table summarizes the average quantity of each item that can be found in a naturally-generated chest, depending on its location.",
+        "summary": "Chest loot are items that can be found in a naturally-generated chest, depending on its location.",
         "image": null,
         "url": "https://minecraft.fandom.com/wiki/Chest_loot"
     },
     {
         "title": "Depth Strider",
         "summary": "Depth Strider is a boot enchantment that increases underwater movement speed.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Depth_Strider"
     },
     {
@@ -2492,7 +2486,7 @@
     {
         "title": "Jockey",
         "summary": "Jockey, by definition, refers to an entity riding another entity.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ee/Spider_Jockey.png/revision/latest?cb=20190804090140",
         "url": "https://minecraft.fandom.com/wiki/Jockey"
     },
     {
@@ -2551,8 +2545,8 @@
     },
     {
         "title": "Anvil mechanics",
-        "summary": "This page explains the mechanics of the anvil.",
-        "image": null,
+        "summary": "The functionality of an anvil.",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/87/Anvil2.png/revision/latest?cb=20210419091701",
         "url": "https://minecraft.fandom.com/wiki/Anvil_mechanics"
     },
     {
@@ -2588,7 +2582,7 @@
     {
         "title": "Spectator",
         "summary": "Spectator mode is a game mode that allows the player to fly around and observe the world without interacting with it in any way.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/ba/Creeper_View.png/revision/latest?cb=20201108161115",
         "url": "https://minecraft.fandom.com/wiki/Spectator"
     },
     {
@@ -2618,7 +2612,7 @@
     {
         "title": "Spawn chunk",
         "summary": "Spawn chunks are chunks found at the world spawn point which are always loaded in memory, unlike normal chunks which unload when no players are nearby.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f5/Spawn_chunks_range.png/revision/latest?cb=20200317084615",
         "url": "https://minecraft.fandom.com/wiki/Spawn_chunk"
     },
     {
@@ -2648,7 +2642,7 @@
     {
         "title": "Advancement",
         "summary": "Advancements are a way to gradually guide new players into Minecraft and give them challenges to complete, similar to the basic system of achievements in Bedrock Edition.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/AdvancementsInterface.png/revision/latest?cb=20200220214855",
         "url": "https://minecraft.fandom.com/wiki/Advancement"
     },
     {
@@ -2720,7 +2714,7 @@
     {
         "title": "Minecraft - Volume Beta",
         "summary": "Minecraft - Volume Beta is the second Minecraft soundtrack album by C418, the first being Minecraft - Volume Alpha.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4d/Minecraft_-_Volume_Beta_cover.png/revision/latest?cb=20210530104856",
         "url": "https://minecraft.fandom.com/wiki/Minecraft_-_Volume_Beta"
     },
     {
@@ -2762,13 +2756,13 @@
     {
         "title": "Luck of the Sea",
         "summary": "Luck of the Sea is an enchantment to a fishing rod that increases luck while fishing.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Luck_of_the_Sea"
     },
     {
         "title": "Lure",
         "summary": "Lure is a fishing rod enchantment that decreases the wait time for a bite on the hook.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Lure"
     },
     {
@@ -2786,7 +2780,7 @@
     {
         "title": "The Update that Changed the World",
         "summary": "The Update that Changed the World is the name for Java Edition version 1.7.2, a major update released on October 25, 2013.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7a/1.7.2.png/revision/latest?cb=20191230031133",
         "url": "https://minecraft.fandom.com/wiki/The_Update_that_Changed_the_World"
     },
     {
@@ -2828,7 +2822,7 @@
     {
         "title": "Amplified",
         "summary": "Amplified, stylized in-game as AMPLIFIED, is a world type with a large range of altitude used in Overworld terrain generation.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c7/Amplified_Biome.png/revision/latest?cb=20220612123359",
         "url": "https://minecraft.fandom.com/wiki/Amplified"
     },
     {
@@ -2864,7 +2858,7 @@
     {
         "title": "Jumping",
         "summary": "Jumping is a mechanic that elevates the player 1 1\u20444 block into the air",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/da/Jumping_preview.png/revision/latest?cb=20221007014946",
         "url": "https://minecraft.fandom.com/wiki/Jumping"
     },
     {
@@ -2882,7 +2876,7 @@
     {
         "title": "Game rule",
         "summary": "Game rules are a set of customizable options for a specific in-game world.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/01/Edit_Game_Rules.png/revision/latest?cb=20201128044820",
         "url": "https://minecraft.fandom.com/wiki/Game_rule"
     },
     {
@@ -2894,7 +2888,7 @@
     {
         "title": "Xbox One Edition",
         "summary": "Minecraft: Xbox One Edition is the Legacy Console Edition version of Minecraft developed by 4J Studios and Mojang Studios for the Xbox One.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7d/Xbox_One_Edition_Cover.png/revision/latest?cb=20191218011321",
         "url": "https://minecraft.fandom.com/wiki/Xbox_One_Edition"
     },
     {
@@ -2924,7 +2918,7 @@
     {
         "title": "Taming",
         "summary": "Taming is a game mechanic that allows the player to domesticate and tame a wild mob.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/cd/CollaredWolves.png/revision/latest?cb=20201220044118",
         "url": "https://minecraft.fandom.com/wiki/Taming"
     },
     {
@@ -2942,7 +2936,7 @@
     {
         "title": "Horse Update",
         "summary": "The Horse Update is the name for Java Edition version 1.6.1 (or 1.6), a major update released on July 1, 2013.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/04/Horse_Update_image.png/revision/latest?cb=20191229192607",
         "url": "https://minecraft.fandom.com/wiki/Horse_Update"
     },
     {
@@ -2990,13 +2984,13 @@
     {
         "title": "Weapon",
         "summary": "Weapons are items that can be used to damage entities.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d1/Enchanted_Diamond_Sword.gif/revision/latest?cb=20201118111712",
         "url": "https://minecraft.fandom.com/wiki/Weapon"
     },
     {
         "title": "Scoreboard",
         "summary": "The scoreboard system is a complex gameplay mechanic utilized through commands",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a4/Scoreboard.png/revision/latest?cb=20191222104758",
         "url": "https://minecraft.fandom.com/wiki/Scoreboard"
     },
     {
@@ -3074,7 +3068,7 @@
     {
         "title": "Thorns",
         "summary": "Thorns is an armor enchantment that causes attackers to be damaged when they deal damage to the wearer.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Thorns"
     },
     {
@@ -3140,7 +3134,7 @@
     {
         "title": "Dimension",
         "summary": "Dimensions are accessible realms within a Minecraft world characterized by a way of generation, biomes and structures, and other things unique to one dimension.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/11/Nether.png/revision/latest?cb=20211221091010",
         "url": "https://minecraft.fandom.com/wiki/Dimension"
     },
     {
@@ -3194,7 +3188,7 @@
     {
         "title": "Redstone Update",
         "summary": "The Redstone Update is the name for Java Edition version 1.5, a major update released on Wednesday, March 13, 2013.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5f/1.5preA.png/revision/latest?cb=20191229182954",
         "url": "https://minecraft.fandom.com/wiki/Redstone_Update"
     },
     {
@@ -3242,19 +3236,19 @@
     {
         "title": "Punch",
         "summary": "Punch is an enchantment for a bow that increases an arrow's knockback, much like the Knockback enchantment for melee weapons",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Punch"
     },
     {
         "title": "Infinity",
         "summary": "Infinity is an enchantment to bows that prevents regular arrows from being consumed when shot",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Infinity"
     },
     {
         "title": "Power",
         "summary": "Power is a bow enchantment which increases arrow damage.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Power"
     },
     {
@@ -3272,7 +3266,7 @@
     {
         "title": "Flame",
         "summary": "Flame is an enchantment that causes bows to shoot flaming arrows.",
-        "image": "https://staticg.sportskeeda.com/editor/2022/05/85a75-16527736454147-1920.jpg",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Flame"
     },
     {
@@ -3320,7 +3314,7 @@
     {
         "title": "Pretty Scary Update",
         "summary": "The Pretty Scary Update is the name for Java Edition version 1.4.2, a major update officially released on Thursday, October 25, 2012.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/37/Pretty_Scary_Update_Logo.png/revision/latest?cb=20210205155036",
         "url": "https://minecraft.fandom.com/wiki/Pretty_Scary_Update"
     },
     {
@@ -3398,7 +3392,7 @@
     {
         "title": "Resource pack",
         "summary": "The resource pack system provides a way for players to customize textures, models, music, sounds, languages, texts such as the end poem, splashes, credits, and fonts without any code modification.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3a/Pack.png/revision/latest?cb=20211221193257",
         "url": "https://minecraft.fandom.com/wiki/Resource_pack"
     },
     {
@@ -3422,7 +3416,7 @@
     {
         "title": "Splitscreen",
         "summary": "Splitscreen is a console-exclusive feature that allows up to four players to play on one screen at the same time.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d1/SSPlaygame.jpg/revision/latest?cb=20120510100502",
         "url": "https://minecraft.fandom.com/wiki/Splitscreen"
     },
     {
@@ -3439,8 +3433,8 @@
     },
     {
         "title": "Enchanting mechanics",
-        "summary": "This article is about the mechanics of enchanting.",
-        "image": null,
+        "summary": "Enchanting is a mechanic that augments armor, tools, weapons, and books with one or more of a variety of \"enchantments\" that improve an item's existing abilities or imbue them with additional abilities and uses",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/96/Enchantment_table_bookshelf_placement_1.18.2.png/revision/latest?cb=20220401162346",
         "url": "https://minecraft.fandom.com/wiki/Enchanting_mechanics"
     },
     {
@@ -3482,7 +3476,7 @@
     {
         "title": "World selection menu",
         "summary": "The world selection menu is one of the game's multiple menu screens, which allows access to the Create New World menu, and equally importantly listing preexisting worlds which can be entered.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b8/JE-1.19-World-Selection-Menu.png/revision/latest?cb=20220713053422",
         "url": "https://minecraft.fandom.com/wiki/World_selection_menu"
     },
     {
@@ -3494,13 +3488,13 @@
     {
         "title": "Flying",
         "summary": "Flying is the most versatile form of transportation and is available in Creative and Spectator mode.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Fly.png/revision/latest?cb=20201109093032",
         "url": "https://minecraft.fandom.com/wiki/Flying"
     },
     {
         "title": "Main menu",
         "summary": "The main menu is one of Minecraft's several menu screens.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f8/Java_Edition_1.19.3.png/revision/latest?cb=20221207162002",
         "url": "https://minecraft.fandom.com/wiki/Main_menu"
     },
     {
@@ -3512,7 +3506,7 @@
     {
         "title": "Demo mode",
         "summary": "The demo mode is a demo version of Minecraft for users who have not purchased the game yet and would like to try it out first without purchasing it.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/72/Demoshot2.png/revision/latest?cb=20170510072034",
         "url": "https://minecraft.fandom.com/wiki/Demo_mode"
     },
     {
@@ -3584,7 +3578,7 @@
     {
         "title": "Trading",
         "summary": "The trading system is a gameplay mechanic that allows players to trade principally emeralds for items (and vice-versa) with villagers, as well as wandering traders.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/20/VillagerGUI_1.14.png/revision/latest?cb=20190726200924",
         "url": "https://minecraft.fandom.com/wiki/Trading"
     },
     {
@@ -3608,13 +3602,13 @@
     {
         "title": "LEGO Minecraft",
         "summary": "LEGO Minecraft is a licensed LEGO theme of sets based on Minecraft.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/28/LEGO_The_Cave.jpg/revision/latest?cb=20170309082016",
         "url": "https://minecraft.fandom.com/wiki/LEGO_Minecraft"
     },
     {
         "title": "Drops",
         "summary": "Drops are items that appear when mobs and some other entities die or when most kinds of blocks are broken.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4e/Skeleton_drops.png/revision/latest?cb=20191214092320",
         "url": "https://minecraft.fandom.com/wiki/Drops"
     },
     {
@@ -3644,19 +3638,19 @@
     {
         "title": "World type",
         "summary": "World type is an option to change how worlds generate in Minecraft.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ab/Default_Superflat_world.png/revision/latest?cb=20221120025624",
         "url": "https://minecraft.fandom.com/wiki/World_type"
     },
     {
         "title": "Unbreaking",
         "summary": "Unbreaking is an enchantment that gives a chance for an item to avoid durability reduction when it is used, effectively increasing the item's durability.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Unbreaking"
     },
     {
         "title": "Efficiency",
         "summary": "Efficiency is an enchantment that increases the player's mining speed.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Efficiency"
     },
     {
@@ -3668,13 +3662,13 @@
     {
         "title": "Fortune",
         "summary": "Fortune is an enchantment applied to mining and digging tools that increases the number and/or chances of specific item drops",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Fortune"
     },
     {
         "title": "Superflat",
         "summary": "Superflat JE or Flat BE is a world type or a vanilla world preset replacing the normal varied terrain of the Overworld, with customizable layers.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Superflat"
     },
     {
@@ -3686,103 +3680,103 @@
     {
         "title": "Looting",
         "summary": "Looting is an enchantment for swords that can cause mobs to drop more items and increase the chances of rare drops",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Looting"
     },
     {
         "title": "Language",
         "summary": "Languages is a feature that allows changing languages for people who prefer to play in a language other than their default setting",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/54/Language_settings.png/revision/latest?cb=20220808100059",
         "url": "https://minecraft.fandom.com/wiki/Language"
     },
     {
         "title": "Particles",
         "summary": "Particles are special graphical effects in Minecraft that are created when certain events occur, such as explosions, rainfall, or smelting items in a furnace.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d5/Particle_ambient_entity_effect.png/revision/latest?cb=20191016091501",
         "url": "https://minecraft.fandom.com/wiki/Particles"
     },
     {
         "title": "Fire Aspect",
         "summary": "Fire Aspect is a sword enchantment that sets the target on fire.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Fire_Aspect"
     },
     {
         "title": "Knockback",
         "summary": "Knockback is an enchantment to a sword that increases the sword's knockback.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Knockback"
     },
     {
         "title": "Respiration",
         "summary": "Respiration is a helmet enchantment for extending breathing time underwater",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Respiration"
     },
     {
         "title": "Silk Touch",
         "summary": "Silk Touch is a tool enchantment that causes certain blocks to drop themselves as items instead of their usual drops when mined.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Silk_Touch"
     },
     {
         "title": "Bane of Arthropods",
         "summary": "Bane of Arthropods is a weapon enchantment that increases damage to arthropod mobs (spiders, cave spiders, bees, silverfish, and endermites).",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Bane_of_Arthropods"
     },
     {
         "title": "Smite",
         "summary": "Smite is an enchantment applied to a sword or axe, increasing the damage dealt to undead mobs.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Smite"
     },
     {
         "title": "Sharpness",
         "summary": "Sharpness is an enchantment applied to a sword or axe that increases melee damage.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Sharpness"
     },
     {
         "title": "Blast Protection",
         "summary": "Blast Protection is an armor enchantment that reduces damage taken from explosions and fireworks.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Blast_Protection"
     },
     {
         "title": "Aqua Affinity",
         "summary": "Aqua Affinity is a helmet enchantment that increases underwater mining speed.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Aqua_Affinity"
     },
     {
         "title": "Projectile Protection",
         "summary": "Projectile Protection is an armor enchantment that reduces damage taken from projectiles.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Projectile_Protection"
     },
     {
         "title": "Fire Protection",
         "summary": "Fire Protection is an armor enchantment that reduces damage taken from sources of fire.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Fire_Protection"
     },
     {
         "title": "Feather Falling",
         "summary": "Feather Falling is an enchantment unique to boots that reduces fall damage the user takes",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Feather_Falling"
     },
     {
         "title": "Protection",
         "summary": "Protection is an enchantment applied to armor that adds bonus damage reduction.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif/revision/latest?cb=20200428014446",
         "url": "https://minecraft.fandom.com/wiki/Protection"
     },
     {
         "title": "End Poem",
         "summary": "The End Poem is a freehand poem written by musician Julian Gough that appears when the player uses the exit portal, before the credits",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/The_End_of_End_Poem_20_Years.png/revision/latest?cb=20200925003045",
         "url": "https://minecraft.fandom.com/wiki/End_Poem"
     },
     {
@@ -3800,7 +3794,7 @@
     {
         "title": "Third-person view",
         "summary": "Third person view allows the player to view the nearby environment from an \"outside\" perspective.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f0/Third_person_front.png/revision/latest?cb=20191130111206",
         "url": "https://minecraft.fandom.com/wiki/Third-person_view"
     },
     {
@@ -3824,7 +3818,7 @@
     {
         "title": "Far Lands",
         "summary": "The Far Lands is a terrain generation bug that appears when the noise generators responsible for creating the shape of terrain stop functioning properly.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/33/Far_Lands.png/revision/latest?cb=20211130121941",
         "url": "https://minecraft.fandom.com/wiki/Far_Lands"
     },
     {
@@ -3842,7 +3836,7 @@
     {
         "title": "Brewing",
         "summary": "Brewing is the process of creating potions, splash potions, and lingering potions by adding various ingredients to water bottles in a brewing stand",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b0/Brewing_Stand_GUI.png/revision/latest?cb=20220729164512",
         "url": "https://minecraft.fandom.com/wiki/Brewing"
     },
     {
@@ -3866,7 +3860,7 @@
     {
         "title": "The End",
         "summary": "The End is a dark, space-like dimension consisting of separate islands in the void made out of end stone",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5c/The_End.png/revision/latest?cb=20201019180500",
         "url": "https://minecraft.fandom.com/wiki/The_End"
     },
     {
@@ -3884,13 +3878,13 @@
     {
         "title": "Enchanting",
         "summary": "Enchanting is a mechanic that augments armor, tools, weapons, and books with one or more of a variety of \"enchantments\" that improve an item's existing abilities or imbue them with additional abilities and uses",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fd/Enchanted_Iron_Pickaxe.gif/revision/latest?cb=20201118221334",
         "url": "https://minecraft.fandom.com/wiki/Enchanting"
     },
     {
         "title": "Item repair",
         "summary": "Item repair is a feature that allows players to repair damaged tools, armor, or other items with durability by combining them in the crafting grid or a grindstone.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/bb/Item_Repair.png/revision/latest?cb=20220715192306",
         "url": "https://minecraft.fandom.com/wiki/Item_repair"
     },
     {
@@ -3932,7 +3926,7 @@
     {
         "title": "Hardcore",
         "summary": "Hardcore is a Java Edition exclusive variant of Survival and one of the main game modes in Minecraft",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a4/Hardcore_Heart.svg/revision/latest?cb=20200523210648",
         "url": "https://minecraft.fandom.com/wiki/Hardcore"
     },
     {
@@ -3956,7 +3950,7 @@
     {
         "title": "Breeding",
         "summary": "Breeding is a game mechanic that allows mobs of the same species to breed with each other to produce offspring (with the exception of breeding a mule, which requires a horse and donkey).",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a2/Villagers_breeding.png/revision/latest?cb=20190729214452",
         "url": "https://minecraft.fandom.com/wiki/Breeding"
     },
     {
@@ -4022,7 +4016,7 @@
     {
         "title": "Farming",
         "summary": "Farming refers to the systematic production of renewable resources",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/49/Small_farm.png/revision/latest?cb=20190906114202",
         "url": "https://minecraft.fandom.com/wiki/Farming"
     },
     {
@@ -4046,7 +4040,7 @@
     {
         "title": "Effect",
         "summary": "An effect is a helpful or harmful condition that affects an entity.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/14/Inventory_Weakness.png/revision/latest?cb=20200929053822",
         "url": "https://minecraft.fandom.com/wiki/Effect"
     },
     {
@@ -4064,19 +4058,19 @@
     {
         "title": "Sprinting",
         "summary": "Sprinting is a method of transportation that allows the player to move faster, at the expense of depleting saturation",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d5/Sprinting_Steve.png/revision/latest?cb=20191111194527",
         "url": "https://minecraft.fandom.com/wiki/Sprinting"
     },
     {
         "title": "Blocking",
         "summary": "Blocking is a gameplay mechanic that allows players to block several forms of damage.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/79/Blocking_Steve_%28shield%29.png/revision/latest?cb=20200813155444",
         "url": "https://minecraft.fandom.com/wiki/Blocking"
     },
     {
         "title": "Terrain features",
         "summary": "This page lists generated terrain features that are created in a Minecraft world.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/9a/Cliff_1.png/revision/latest?cb=20220420115957",
         "url": "https://minecraft.fandom.com/wiki/Terrain_features"
     },
     {
@@ -4232,7 +4226,7 @@
     {
         "title": "Adventure Update",
         "summary": "The Adventure Update was a major update to Java Edition focused on fighting, exploration, and adventuring, as well as other aspects",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5b/Adventure_Update.png/revision/latest?cb=20210929110740",
         "url": "https://minecraft.fandom.com/wiki/Adventure_Update"
     },
     {
@@ -4250,7 +4244,7 @@
     {
         "title": "Canyon",
         "summary": "A canyon (commonly referred to as ravine) is a deep, long crack generating in the Overworld that can connect with caves",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b3/Over_Ravine.png/revision/latest?cb=20210609180541",
         "url": "https://minecraft.fandom.com/wiki/Canyon"
     },
     {
@@ -4262,7 +4256,7 @@
     {
         "title": "Coordinates",
         "summary": "Coordinates numerically represent a location in a dimension.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/51/Coordinates.png/revision/latest?cb=20200729013357",
         "url": "https://minecraft.fandom.com/wiki/Coordinates"
     },
     {
@@ -4274,7 +4268,7 @@
     {
         "title": "Fog",
         "summary": "Fog is a rendering feature intended for obscuring the player's view distance, usually for atmospheric effect or for seamlessly occluding sharp boundaries such as unloaded chunks",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/93/Fancyfog.png/revision/latest?cb=20210201213723",
         "url": "https://minecraft.fandom.com/wiki/Fog"
     },
     {
@@ -4286,13 +4280,13 @@
     {
         "title": "Herobrine",
         "summary": "Herobrine is the subject of a community-made creepypasta.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/b/b4/Herobrine.png/revision/latest?cb=20201018002728",
         "url": "https://minecraft.fandom.com/wiki/Herobrine"
     },
     {
         "title": "Xbox 360 Edition",
         "summary": "Minecraft: Xbox 360 Edition is the Xbox 360 version of Minecraft, developed by 4J Studios in conjunction with Mojang Studios and Xbox Game Studios.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/cb/Xbox_360_Edition.png/revision/latest?cb=20191218001838",
         "url": "https://minecraft.fandom.com/wiki/Xbox_360_Edition"
     },
     {
@@ -4310,13 +4304,13 @@
     {
         "title": "Options",
         "summary": "Minecraft's user environment can be configured through the Options setting",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/9e/Settings_Screen.png/revision/latest?cb=20220808091828",
         "url": "https://minecraft.fandom.com/wiki/Options"
     },
     {
         "title": "Generated structures",
         "summary": "This page lists structures (aka. generated structures, structure features) in Minecraft.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/11/Savanna_Small_House_7.png/revision/latest?cb=20201031104157",
         "url": "https://minecraft.fandom.com/wiki/Generated_structures"
     },
     {
@@ -4340,7 +4334,7 @@
     {
         "title": "Crash",
         "summary": "Crashes are unexpected shutdowns of Minecraft, generally caused by unhandled \"exceptions\" while running the game.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3d/Mclauncher_game_crash_debug_2020.png/revision/latest?cb=20210117052220",
         "url": "https://minecraft.fandom.com/wiki/Crash"
     },
     {
@@ -4358,7 +4352,7 @@
     {
         "title": "Snowfall",
         "summary": "Snowfall is a type of weather that occurs occasionally in Minecraft.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Snowing.png/revision/latest?cb=20201018203728",
         "url": "https://minecraft.fandom.com/wiki/Snowfall"
     },
     {
@@ -4376,7 +4370,7 @@
     {
         "title": "Thunderstorm",
         "summary": "A thunderstorm is a somewhat uncommon and dangerous weather condition.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/33/LightningStrike.gif/revision/latest?cb=20111108112524",
         "url": "https://minecraft.fandom.com/wiki/Thunderstorm"
     },
     {
@@ -4388,7 +4382,7 @@
     {
         "title": "Weather",
         "summary": "Weather in Minecraft consists of occasional precipitation and storms that are temporary but global.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/UVNCC.jpg/revision/latest?cb=20211113221631",
         "url": "https://minecraft.fandom.com/wiki/Weather"
     },
     {
@@ -4424,25 +4418,25 @@
     {
         "title": "Subtitles",
         "summary": "Subtitles (also known as captions) are a feature which display text for sounds in-game",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a8/Subtitles.png/revision/latest?cb=20170731105832",
         "url": "https://minecraft.fandom.com/wiki/Subtitles"
     },
     {
         "title": "Statistics",
         "summary": "Statistics is a game feature that allows players to track certain tasks in the form of numerical data.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d0/Statistics.png/revision/latest?cb=20220809052248",
         "url": "https://minecraft.fandom.com/wiki/Statistics"
     },
     {
         "title": "Hunger",
         "summary": "Hunger is a player-specific feature of Minecraft that regulates player's certain abilities (health regeneration and the ability to sprint) the value of which is managed by the player's activity.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fd/Hotbar_with_xp.png/revision/latest?cb=20190505080411",
         "url": "https://minecraft.fandom.com/wiki/Hunger"
     },
     {
         "title": "Minecraft - Volume Alpha",
         "summary": "Minecraft - Volume Alpha is the first Minecraft soundtrack album by C418, first released on Bandcamp on March 4, 2011",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/73/Minecraft_-_Volume_Alpha_cover.png/revision/latest?cb=20210530104541",
         "url": "https://minecraft.fandom.com/wiki/Minecraft_-_Volume_Alpha"
     },
     {
@@ -4454,7 +4448,7 @@
     {
         "title": "Achievement",
         "summary": "An achievement, known as a trophy on PlayStation 4, is a way to gradually guide new players into Minecraft and give them challenges to complete",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/20/AchievementsMenuBE.png/revision/latest?cb=20211222010745",
         "url": "https://minecraft.fandom.com/wiki/Achievement"
     },
     {
@@ -4484,13 +4478,13 @@
     {
         "title": "Screenshot",
         "summary": "Screenshots are images taken in-game by pressing the (by default) F2 key  or Fn\u202f+\u202fF2 for Macs and some other keyboards.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3f/Beta.png/revision/latest?cb=20191215152001",
         "url": "https://minecraft.fandom.com/wiki/Screenshot"
     },
     {
         "title": "Entity",
         "summary": "Entities encompass all dynamic, moving objects throughout the Minecraft world.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/MiscEntities.png/revision/latest?cb=20220728172320",
         "url": "https://minecraft.fandom.com/wiki/Entity"
     },
     {
@@ -4502,7 +4496,7 @@
     {
         "title": "Minecraft.net",
         "summary": "Minecraft.net is the official website for the Minecraft franchise.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d5/Minecraft.net_2021.png/revision/latest?cb=20211005050134",
         "url": "https://minecraft.fandom.com/wiki/Minecraft.net"
     },
     {
@@ -4598,7 +4592,7 @@
     {
         "title": "Breaking",
         "summary": "Breaking, digging, punching, or mining is a common activity in Minecraft, performed (by default) by holding the left mouse button or right trigger while the cursor is pointing at a block, or by long-pressing on the block on touch screens",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/2c/PunchTrees-GetWood.gif/revision/latest?cb=20221220011518",
         "url": "https://minecraft.fandom.com/wiki/Breaking"
     },
     {
@@ -4688,7 +4682,7 @@
     {
         "title": "Fish",
         "summary": "Fish are aquatic creatures that are found in river and ocean biomes.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/Salmon.gif/revision/latest?cb=20190923182046",
         "url": "https://minecraft.fandom.com/wiki/Fish"
     },
     {
@@ -4724,7 +4718,7 @@
     {
         "title": "Cape",
         "summary": "Capes are commemorative items that can be worn in addition to the player's skin.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3a/MINECON_2011_Cape.png/revision/latest?cb=20200901084410",
         "url": "https://minecraft.fandom.com/wiki/Cape"
     },
     {
@@ -4742,13 +4736,13 @@
     {
         "title": "Explosion",
         "summary": "An explosion is a physical event, generally destructive, that can be caused by several different circumstances.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/fb/Minecraft-tnt-explosion.gif/revision/latest?cb=20210322150224",
         "url": "https://minecraft.fandom.com/wiki/Explosion"
     },
     {
         "title": "Rain",
         "summary": "Rain is a type of weather that occurs occasionally in Minecraft.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0f/Rainyclouds.png/revision/latest?cb=20200105221305",
         "url": "https://minecraft.fandom.com/wiki/Rain"
     },
     {
@@ -4766,7 +4760,7 @@
     {
         "title": "Cloud",
         "summary": "Clouds are graphical effects in the sky",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/91/CloudsComparison.png/revision/latest?cb=20160405043449",
         "url": "https://minecraft.fandom.com/wiki/Cloud"
     },
     {
@@ -4778,7 +4772,7 @@
     {
         "title": "Minecraft Wiki",
         "summary": "The official Minecraft wiki page, hosted by Fandom.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e6/Site-logo.png/revision/latest?cb=20211226202153",
         "url": "https://minecraft.fandom.com/wiki/Minecraft_Wiki"
     },
     {
@@ -4814,7 +4808,7 @@
     {
         "title": "Biome",
         "summary": "A biome is a region in a world with distinct geographical features, flora, temperatures, humidity ratings, and sky, water, grass and foliage colors",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Biome_preview.png/revision/latest?cb=20220325074850",
         "url": "https://minecraft.fandom.com/wiki/Biome"
     },
     {
@@ -4868,7 +4862,7 @@
     {
         "title": "Fishing",
         "summary": "Fishing is the use of a fishing rod to obtain items, usually fish.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/19/Fishing.png/revision/latest?cb=20190511163835",
         "url": "https://minecraft.fandom.com/wiki/Fishing"
     },
     {
@@ -4922,7 +4916,7 @@
     {
         "title": "Animal",
         "summary": "The term Animal refers to a category of mobs and blocks that are mainly based on real life animals and mythical animals.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/cc/Animals_preview.png/revision/latest?cb=20211004063125",
         "url": "https://minecraft.fandom.com/wiki/Animal"
     },
     {
@@ -4934,25 +4928,25 @@
     {
         "title": "Durability",
         "summary": "Durability is a property that affects all tools, weapons, and armor, as well as certain other usable items",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraftpocketedition/images/5/5b/Durability.gif/revision/latest?cb=20170710010530",
         "url": "https://minecraft.fandom.com/wiki/Durability"
     },
     {
         "title": "World",
         "summary": "A world or level is an individual Minecraft \"universe\" which encompasses an instance each of the Overworld, the Nether and the End",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d8/MainMenu_SPMain.png/revision/latest?cb=20210211095637",
         "url": "https://minecraft.fandom.com/wiki/World"
     },
     {
         "title": "Sneaking",
         "summary": "Sneaking (or crouching) is a gameplay feature that prevents players from falling off of blocks and helps them hide from mobs, among other useful features.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a0/Sneaking_Steve.png/revision/latest?cb=20200201065909",
         "url": "https://minecraft.fandom.com/wiki/Sneaking"
     },
     {
         "title": "The Nether",
         "summary": "The Nether is a dangerous hell-like dimension containing fire, lava, fungal vegetation, many hostile mobs, and exclusive structures and biomes.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/69/The_Nether.png/revision/latest?cb=20200712073602",
         "url": "https://minecraft.fandom.com/wiki/The_Nether"
     },
     {
@@ -4964,7 +4958,7 @@
     {
         "title": "Mods",
         "summary": "Mods (short for modifications) change Minecraft\u200b's game content in some way, such as to make minor adjustments to the game's mechanics or implement entirely new features.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/c/c3/OWIAS.jpg/revision/latest?cb=20200104231351",
         "url": "https://minecraft.fandom.com/wiki/Mods"
     },
     {
@@ -4976,7 +4970,7 @@
     {
         "title": "Spawn",
         "summary": "Spawning refers to the creation and placement of players and mobs in the Minecraft world.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/54/Spawning_Area.png/revision/latest?cb=20141003143919",
         "url": "https://minecraft.fandom.com/wiki/Spawn"
     },
     {
@@ -4988,7 +4982,7 @@
     {
         "title": "Void",
         "summary": "The void is the name given to the empty space external to the world in any dimension, most commonly below it",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/a0/The_Void_Below.png/revision/latest?cb=20220711041023",
         "url": "https://minecraft.fandom.com/wiki/Void"
     },
     {
@@ -4996,12 +4990,6 @@
         "summary": "Flint is a mineral obtained from gravel.",
         "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/97/Flint_JE3_BE3.png/revision/latest?cb=20190430051311\"",
         "url": "https://minecraft.fandom.com/wiki/Flint"
-    },
-    {
-        "title": "Tutorials",
-        "summary": "The list below contains tutorials describing various factors of Minecraft.",
-        "image": null,
-        "url": "https://minecraft.fandom.com/wiki/Tutorials"
     },
     {
         "title": "Compass",
@@ -5012,25 +5000,25 @@
     {
         "title": "Ore",
         "summary": "An ore is any uncommon rock-type block used to obtain specific resources.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/35/Caves_%26_Cliffs_Ores.png/revision/latest?cb=20210415134055",
         "url": "https://minecraft.fandom.com/wiki/Ore"
     },
     {
         "title": "Health",
         "summary": "The health gauge and monitor in Minecraft displays how much damage the player is able to take before dying",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/59/Healthbar.png/revision/latest?cb=20200826173727",
         "url": "https://minecraft.fandom.com/wiki/Health"
     },
     {
         "title": "Difficulty",
         "summary": "Difficulty is an option in Minecraft that has a direct impact on the ease of gameplay, allowing the game's challenges to be tailored to the player's skill level.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d3/DifficultyButton.gif/revision/latest?cb=20160601114613",
         "url": "https://minecraft.fandom.com/wiki/Difficulty"
     },
     {
         "title": "Daylight cycle",
         "summary": "The daylight cycle is a 20-minute-long cycle between two main light settings.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/01/Day_Night.gif/revision/latest?cb=20201125153851",
         "url": "https://minecraft.fandom.com/wiki/Daylight_cycle"
     },
     {
@@ -5042,13 +5030,13 @@
     {
         "title": "Splash",
         "summary": "Splash texts are the yellow lines of text on the title screen.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/f/f8/Java_Edition_1.19.3.png/revision/latest?cb=20221207162002",
         "url": "https://minecraft.fandom.com/wiki/Splash"
     },
     {
         "title": "Crafting",
         "summary": "Crafting is the process of constructing tools, items, and blocks in Minecraft",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/39/Crafting_Table_GUI.png/revision/latest?cb=20220729164204",
         "url": "https://minecraft.fandom.com/wiki/Crafting"
     },
     {
@@ -5198,7 +5186,7 @@
     {
         "title": "Chunk",
         "summary": "A chunk is a 384-block tall 16\u00d716 segment of a world",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/ec/Chunk.png/revision/latest?cb=20220204013734",
         "url": "https://minecraft.fandom.com/wiki/Chunk"
     },
     {
@@ -5240,7 +5228,7 @@
     {
         "title": "Inventory",
         "summary": "The inventory is the pop-up menu that the player uses to manage items they carry",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/db/Inventory.png/revision/latest?cb=20230128121220",
         "url": "https://minecraft.fandom.com/wiki/Inventory"
     },
     {
@@ -5300,7 +5288,7 @@
     {
         "title": "Survival",
         "summary": "Survival is one of the game modes in Minecraft.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/50/Survival1.17.png/revision/latest?cb=20210821180103",
         "url": "https://minecraft.fandom.com/wiki/Survival"
     },
     {
@@ -5354,7 +5342,7 @@
     {
         "title": "Item",
         "summary": "An item is an object that exists only within the player's inventory and hands, or displayed in item frames or armor stands.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/91/Search_Items.png/revision/latest?cb=20221208114748",
         "url": "https://minecraft.fandom.com/wiki/Item"
     },
     {
@@ -5372,7 +5360,7 @@
     {
         "title": "Damage",
         "summary": "Damage represents injury from attacks or natural causes.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e3/Hurt.png/revision/latest?cb=20190607015846",
         "url": "https://minecraft.fandom.com/wiki/Damage"
     },
     {
@@ -5384,7 +5372,7 @@
     {
         "title": "Food",
         "summary": "Food refers to any consumable items that, when eaten, restore hunger points and hunger saturation points, and sometimes cause status effects.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e9/Eating_Steve.png/revision/latest?cb=20191113181054",
         "url": "https://minecraft.fandom.com/wiki/Food"
     },
     {
@@ -5492,7 +5480,7 @@
     {
         "title": "Moon",
         "summary": "The moon is a celestial body that appears in the night sky.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/4/4b/Moon_Phases.gif/revision/latest?cb=20190922042321",
         "url": "https://minecraft.fandom.com/wiki/Moon"
     },
     {
@@ -5522,7 +5510,7 @@
     {
         "title": "Smelting",
         "summary": "Smelting is a method of obtaining refined goods from raw materials by heating in a furnace, blast furnace, smoker or campfire",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Furnace_GUI.png/revision/latest?cb=20190311160314",
         "url": "https://minecraft.fandom.com/wiki/Smelting"
     },
     {
@@ -5546,7 +5534,7 @@
     {
         "title": "Light",
         "summary": "Light (or lighting) in Minecraft affects visibility, mob spawning, and plant growth",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e2/Lighting_preview.png/revision/latest?cb=20210929030416",
         "url": "https://minecraft.fandom.com/wiki/Light"
     },
     {
@@ -5564,7 +5552,7 @@
     {
         "title": "Mob",
         "summary": "A mob is an AI-driven game entity resembling a living creature",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/52/Minecraft_mobs_preview.png/revision/latest?cb=20210930072044",
         "url": "https://minecraft.fandom.com/wiki/Mob"
     },
     {
@@ -5630,7 +5618,7 @@
     {
         "title": "Debug screen",
         "summary": "The debug screen is triggered when the F3 key is pressed",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/1/18/DebugScreen.png/revision/latest?cb=20221212184757",
         "url": "https://minecraft.fandom.com/wiki/Debug_screen"
     },
     {
@@ -5642,7 +5630,7 @@
     {
         "title": "Overworld",
         "summary": "The Overworld is the dimension in which all players begin their Minecraft world",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/e/e7/Overworld_1.18.png/revision/latest?cb=20211129031711",
         "url": "https://minecraft.fandom.com/wiki/Overworld"
     },
     {
@@ -5672,7 +5660,7 @@
     {
         "title": "Sun",
         "summary": "The sun is a celestial body that provides light for the Overworld.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/61/Sun.png/revision/latest?cb=20191218012856",
         "url": "https://minecraft.fandom.com/wiki/Sun"
     },
     {
@@ -5684,13 +5672,13 @@
     {
         "title": "Spleef",
         "summary": "Spleef is a competitive minigame played within Minecraft.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/69/Spleefplayshot.png/revision/latest?cb=20110811224829",
         "url": "https://minecraft.fandom.com/wiki/Spleef"
     },
     {
         "title": "Solid block",
         "summary": "Solid blocks consist of any type of block that has a collision block that players, mobs, or other entities cannot move through.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/7d/SolidLiquid.png/revision/latest?cb=20190709011742",
         "url": "https://minecraft.fandom.com/wiki/Solid_block"
     },
     {
@@ -5714,7 +5702,7 @@
     {
         "title": "Skin",
         "summary": "Skins refer to the textures that are placed onto a player or mob model.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/8/8f/Steve_%28classic%29_JE6.png/revision/latest?cb=20221026174119",
         "url": "https://minecraft.fandom.com/wiki/Skin"
     },
     {
@@ -5732,7 +5720,7 @@
     {
         "title": "Creative",
         "summary": "Creative mode is one of the main game modes in Minecraft",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/57/Creative.png/revision/latest?cb=20200313181149",
         "url": "https://minecraft.fandom.com/wiki/Creative"
     },
     {
@@ -5744,7 +5732,7 @@
     {
         "title": "Gameplay",
         "summary": "Gameplay in most game modes of Minecraft consists mainly of adding and destroying a variety of different blocks in a randomly generated world.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/6/60/Survival.png/revision/latest?cb=20220702034959",
         "url": "https://minecraft.fandom.com/wiki/Gameplay"
     },
     {
@@ -5768,7 +5756,7 @@
     {
         "title": "Fluid",
         "summary": "Fluids are blocks that are able to flow over the terrain, forming rivers or falls.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Water_JE16-a1.png/revision/latest?cb=20191211060733",
         "url": "https://minecraft.fandom.com/wiki/Fluid"
     },
     {
@@ -5780,7 +5768,7 @@
     {
         "title": "Multiplayer",
         "summary": "Multiplayer is the server-based version of Minecraft that enables multiple players to interact with each other on a single world, allowing them to work together to mine ores, build structures, and fight mobs (or each other), or to simply play together.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/3/3e/AlexSkins.jpg/revision/latest?cb=20160708052426",
         "url": "https://minecraft.fandom.com/wiki/Multiplayer"
     },
     {
@@ -5828,7 +5816,7 @@
     {
         "title": "Block",
         "summary": "Blocks are the basic units of structure in Minecraft that make up the game's world",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/5e/Blocks_preview.png/revision/latest?cb=20221003004825",
         "url": "https://minecraft.fandom.com/wiki/Block"
     },
     {
