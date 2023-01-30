@@ -101,7 +101,9 @@ function App() {
             <img class="vs" alt="Versus" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Street_Fighter_VS_logo.png" />
           </div>
           <div class="center col-md-5">
+          <div class="img">
             <a target="_blank" rel="noopener noreferrer" href={data[1].url}><img alt={data[1].title} src={(data[1].image == null)? "https://i.imgur.com/OzRR1xv.jpg" : data[1].image} class="thing"/></a>
+          </div>
             <button disabled={disabled} type="button" onClick={() => vote(data[0].id, data[1].id, false)}>
               {data[1].title}
             </button>
