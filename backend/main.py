@@ -6,18 +6,10 @@ import time
 from datetime import datetime, timedelta
 
 from flask import Flask, Response, request, send_file
-from flask_limiter import Limiter
-from flask_limiter.util import get_remote_address
 from stuff import Vote, get_things
 from waitress import serve
 
 app = Flask(__name__)
-limiter = Limiter(
-    get_remote_address,
-    app=app,
-    default_limits=["1 per second", "1000 per day"]
-)
-
 
 # flask app
 @app.route("/api")
