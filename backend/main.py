@@ -22,19 +22,15 @@ def index():
     if args and (not '0' in args or not '1' in args):
         votes.append(
             Vote(
-                address=get_remote_address(),
                 valid=False,
                 vote_time=datetime.now(),
                 winner=None,
                 loser=None,
             )
         )
-
-        return Response("Invalid request", status=400)
     elif 'skip' in args:
         votes.append(
             Vote(
-                address=get_remote_address(),
                 valid=True,
                 vote_time=datetime.now(),
                 winner=None,
@@ -48,6 +44,9 @@ def index():
 
         # retrieve matching things
         try:
+            downvote = None
+            upvote = None
+
             # raises StopIteration if there is no matching
             downvote = next(thing for thing in things if thing.id == downvote_id)
             upvote = next(thing for thing in things if thing.id == upvote_id)
@@ -69,7 +68,6 @@ def index():
 
             votes.append(
                 Vote(
-                    address=get_remote_address(),
                     valid=True,
                     vote_time=datetime.now(),
                     winner=upvote,
@@ -77,7 +75,14 @@ def index():
                 )
             )
         except StopIteration:
-            ... # discretely reject but log TODO
+            votes.append(
+                Vote(
+                    valid=False,
+                    vote_time=datetime.now(),
+                    winner=upvote or upvote_id,
+                    downvote=downvote or downvote_id
+                )
+            )
 
     # return two random things
     # sort list by impressions, ascending
@@ -96,14 +101,6 @@ def index():
     expire_time = datetime.now() + timedelta(hours=1)
     buffer.append({thing1, thing2, expire_time})
     return [thing1.json, thing2.json]
-
-@app.route("/assets/pack.jpeg")
-def pack_image():
-    return send_file("../assets/pack.jpeg", mimetype="image/jpeg")
-
-@app.route("/assets/dirt.png")
-def dirt_image():
-    return send_file("../assets/dirt.png", mimetype="image/png")
 
 
 def save():

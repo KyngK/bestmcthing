@@ -22,13 +22,11 @@ class Thing:
 
 class Vote:
     def __init__(self,
-        address,
         valid: bool,
         vote_time: datetime,
         winner: Thing,
         loser: Thing,
     ):
-        self.address = address
         self.valid = valid
         self.vote_time = vote_time
 
