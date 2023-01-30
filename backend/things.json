@@ -164,7 +164,7 @@
     {
         "title": "/placefeature command",
         "summary": "Places a configured feature at the specified location where meet the placement requirements.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/placefeature"
     },
     {
@@ -236,7 +236,7 @@
     {
         "title": "/jfr command",
         "summary": "Start profiling with Java FlightRecorder as well as a few custom events.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/jfr"
     },
     {
@@ -254,7 +254,7 @@
     {
         "title": "/perf command",
         "summary": "Captures information and metrics about the game for ten seconds",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/perf"
     },
     {
@@ -464,7 +464,7 @@
     {
         "title": "/item command",
         "summary": "Manipulate or copy items in the inventories of blocks (chest, furnaces, etc.) or entities (players or mobs).",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/item"
     },
     {
@@ -620,7 +620,7 @@
     {
         "title": "/structure command",
         "summary": "Used to save and load structures without having to use structure blocks.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/structure"
     },
     {
@@ -632,7 +632,7 @@
     {
         "title": "/ride command",
         "summary": "Allows entities to mount or dismount other entities.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/ride"
     },
     {
@@ -716,7 +716,7 @@
     {
         "title": "/attribute command",
         "summary": "Used to change or read attributes.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/attribute"
     },
     {
@@ -932,7 +932,7 @@
     {
         "title": "/locatebiome command",
         "summary": "Displays the coordinates for the closest biome of a given biome ID or a biome tag in the chat for the player who executed the command.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/locatebiome"
     },
     {
@@ -974,7 +974,7 @@
     {
         "title": "/spectate command",
         "summary": "Causes a player in Spectator mode to spectate another entity.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/spectate"
     },
     {
@@ -1160,7 +1160,7 @@
     {
         "title": "/teammsg command",
         "summary": "Sends message to all players in the team of the entity who runs the command.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/teammsg"
     },
     {
@@ -1208,7 +1208,7 @@
     {
         "title": "/schedule command",
         "summary": "In Java Edition, delays the execution of a function.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/schedule"
     },
     {
@@ -1322,7 +1322,7 @@
     {
         "title": "/forceload command",
         "summary": "Force chunks to load constantly or not, forceload add, forceload query and forceload remove are three separated commands.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/forceload"
     },
     {
@@ -1544,7 +1544,7 @@
     {
         "title": "/bossbar command",
         "summary": "Creates and modifies boss bars.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/bossbar"
     },
     {
@@ -1622,67 +1622,67 @@
     {
         "title": "/tag command",
         "summary": "Controls scoreboard tags on individual entities.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/tag"
     },
     {
         "title": "/datapack command",
         "summary": "Controls the loading/unloading of data packs.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/datapack"
     },
     {
         "title": "/data command",
         "summary": "The /data command allows the user to get, merge, modify, and remove NBT data of a block entity, entity, or Command NBT storage.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/data"
     },
     {
         "title": "/team command",
         "summary": "Controls teams.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/team"
     },
     {
         "title": "/loot command",
         "summary": "Drops the given loot table into the specified inventory or into the world.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/loot"
     },
     {
         "title": "/experience command",
         "summary": "Adds or removes player experience.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/experience"
     },
     {
         "title": "/whitelist command",
         "summary": "Whitelist is used to manage server whitelists.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/whitelist"
     },
     {
         "title": "/worldborder command",
         "summary": "These commands control the world border.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/worldborder"
     },
     {
         "title": "/weather command",
         "summary": "Sets the weather.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/weather"
     },
     {
         "title": "/trigger command",
         "summary": "Modifies a scoreboard objective with a \"trigger\" criterion",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/trigger"
     },
     {
         "title": "/time command",
         "summary": "Changes or queries the world's game time.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/time"
     },
     {
@@ -1694,37 +1694,37 @@
     {
         "title": "/msg command",
         "summary": "Sends a private message to one or more players",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/msg"
     },
     {
         "title": "/stop command",
         "summary": "Stops a server.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/stop"
     },
     {
         "title": "/teleport command",
         "summary": "Teleports entities (players, mobs, etc.).",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/teleport"
     },
     {
         "title": "/spreadplayers command",
         "summary": "Teleports entities to random surface locations within an area.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/spreadplayers"
     },
     {
         "title": "/seed command",
         "summary": "Displays the world seed.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/seed"
     },
     {
         "title": "/spawnpoint command",
         "summary": "Sets the spawn point for a player",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/spawnpoint"
     },
     {
@@ -1736,13 +1736,13 @@
     {
         "title": "/op command",
         "summary": "Grants operator status to a player.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/op"
     },
     {
         "title": "/recipe command",
         "summary": "Gives or takes (unlocks or locks) recipes for players.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/recipe"
     },
     {
@@ -1754,91 +1754,91 @@
     {
         "title": "/say command",
         "summary": "Sends a message in the chat.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/say"
     },
     {
         "title": "/me command",
         "summary": "Displays a message about yourself.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/me"
     },
     {
         "title": "/reload command",
         "summary": "Reloads data packs in Java Edition and functions in behavior packs in Bedrock Edition.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/reload"
     },
     {
         "title": "/scoreboard command",
         "summary": "Manages and displays scores for various scoreboard objectives.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/scoreboard"
     },
     {
         "title": "/particle command",
         "summary": "Creates particles.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/particle"
     },
     {
         "title": "/list command",
         "summary": "Lists players on the server.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/list"
     },
     {
         "title": "/kill command",
         "summary": "Kills entities (players, mobs, items, etc.).",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/kill"
     },
     {
         "title": "/kick command",
         "summary": "Kicks a player off the server.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/kick"
     },
     {
         "title": "/gamerule command",
         "summary": "Sets or queries a game rule value.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/gamerule"
     },
     {
         "title": "/gamemode command",
         "summary": "Sets a player's game mode.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/gamemode"
     },
     {
         "title": "/function command",
         "summary": "Runs commands founds in the corresponding function file.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/function"
     },
     {
         "title": "/deop command",
         "summary": "Revokes operator status from a player.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/deop"
     },
     {
         "title": "/entitydata command",
         "summary": "Modifies the data tag of an entity.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/entitydata"
     },
     {
         "title": "/clear command",
         "summary": "Clears items from player inventory, including items being dragged by the player.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/clear"
     },
     {
         "title": "/enchant command",
         "summary": "Adds an enchantment to a player's selected item, subject to the same restrictions as an anvil",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/enchant"
     },
     {
@@ -1850,19 +1850,19 @@
     {
         "title": "/advancement command",
         "summary": "Gives or takes an advancement from one or more players.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/advancement"
     },
     {
         "title": "/difficulty command",
         "summary": "Sets the difficulty level (peaceful, easy, etc.).",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/difficulty"
     },
     {
         "title": "/effect command",
         "summary": "Add or remove status effects on players and other entities.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/effect"
     },
     {
@@ -1880,7 +1880,7 @@
     {
         "title": "/setworldspawn command",
         "summary": "Sets the world spawn.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/setworldspawn"
     },
     {
@@ -1892,7 +1892,7 @@
     {
         "title": "/ban command",
         "summary": "These commands control a server's banlist, or blacklist",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/ban"
     },
     {
@@ -1922,7 +1922,7 @@
     {
         "title": "/locate command",
         "summary": "Displays the coordinates for the closest generated structure or biomes of a given type in the chat for the player who executed the command",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/locate"
     },
     {
@@ -2066,13 +2066,13 @@
     {
         "title": "/title command",
         "summary": "Controls text displayed on the screen.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/title"
     },
     {
         "title": "/replaceitem command",
         "summary": "Replaces the items in a specified slot of either a block's (chest, furnaces, etc.) or entity's (players or mobs) inventory, with a specified item.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/replaceitem"
     },
     {
@@ -2252,7 +2252,7 @@
     {
         "title": "/give command",
         "summary": "Gives an item to one or more players.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/give"
     },
     {
@@ -2288,7 +2288,7 @@
     {
         "title": "/fill command",
         "summary": "Fills all or parts of a region with a specific block.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/fill"
     },
     {
@@ -2336,7 +2336,7 @@
     {
         "title": "/execute command",
         "summary": "/execute executes another command but allows changing the executor, changing the position and angle it is executed at, adding preconditions, and storing its result.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/execute"
     },
     {
@@ -2348,7 +2348,7 @@
     {
         "title": "/clone command",
         "summary": "Clones blocks from one region to another.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/clone"
     },
     {
@@ -2576,7 +2576,7 @@
     {
         "title": "/playsound command",
         "summary": "Plays a specified sound at a player, in a location, and in a specific volume and pitch.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/playsound"
     },
     {
@@ -2720,7 +2720,7 @@
     {
         "title": "/setblock command",
         "summary": "Changes a block to another block.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/setblock"
     },
     {
@@ -2744,7 +2744,7 @@
     {
         "title": "/tellraw command",
         "summary": "Sends a JSON message to players.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/tellraw"
     },
     {
@@ -2798,7 +2798,7 @@
     {
         "title": "/summon command",
         "summary": "Summons an entity.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/summon"
     },
     {
@@ -2960,7 +2960,7 @@
     {
         "title": "/help command",
         "summary": "Provides help/lists of commands.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/7/76/Impulse_Command_Block.gif/revision/latest?cb=20191017044126",
         "url": "https://minecraft.fandom.com/wiki/Commands/help"
     },
     {
@@ -3026,7 +3026,7 @@
     {
         "title": "/testfor command",
         "summary": "Counts entities (players, mobs, items, etc.) matching specified conditions.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Chain_Command_Block.gif/revision/latest?cb=20191017044156",
         "url": "https://minecraft.fandom.com/wiki/Commands/testfor"
     },
     {
@@ -3164,7 +3164,7 @@
     {
         "title": "/stopsound command",
         "summary": "Stops a given sound.",
-        "image": null,
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/2/22/Repeating_Command_Block.gif/revision/latest?cb=20210328220138",
         "url": "https://minecraft.fandom.com/wiki/Commands/stopsound"
     },
     {
