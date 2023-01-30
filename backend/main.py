@@ -80,7 +80,7 @@ def index():
                     valid=False,
                     vote_time=datetime.now(),
                     winner=upvote or upvote_id,
-                    downvote=downvote or downvote_id
+                    loser=downvote or downvote_id
                 )
             )
 
