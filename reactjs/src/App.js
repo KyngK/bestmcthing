@@ -78,9 +78,9 @@ function App() {
 		        <div class="center adj">
               <img class="title" alt="THE BEST THING" src="https://i.imgur.com/lHRDVRv.png"/>
   			      <div class="page-header">
-	  			      <h3 class={(light)?("txt-light"):("txt-dark")}>
+	  			      <p class={(light)?("txt-light"):("txt-dark")}>
 		  			      Which is better?
-			  	      </h3>
+			  	      </p>
   			      </div>
 	  	      </div>
 	        </div>
@@ -93,9 +93,9 @@ function App() {
             <button type="button" disabled={disabled} onClick={() => vote(data[1].id, data[0].id, false)}>
               {data[0].title}
             </button>
-            <h3 class={(light)?("txt-light"):("txt-dark")}>
+            <p class={(light)?("txt-light"):("txt-dark")}>
             {(data[0].summary==="")?(<><br></br><br></br><br></br></>):(data[0].summary)}
-            </h3>
+            </p>
 		      </div>
           <div class="vcenter center col-md-2">
             <img class="vs" alt="Versus" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Street_Fighter_VS_logo.png" />
@@ -107,9 +107,9 @@ function App() {
             <button disabled={disabled} type="button" onClick={() => vote(data[0].id, data[1].id, false)}>
               {data[1].title}
             </button>
-            <h3 class={(light)?("txt-light"):("txt-dark")}>
+            <p class={(light)?("txt-light"):("txt-dark")}>
               {(data[1].summary==="")?(<><br></br><br></br><br></br></>):(data[1].summary)}
-            </h3>
+            </p>
 		      </div>
 	      </div>
 	    <div class="row">
