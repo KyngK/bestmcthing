@@ -79,7 +79,7 @@ function App() {
               <img class="title" alt="THE BEST THING" src="https://i.imgur.com/lHRDVRv.png"/>
   			      <div class="page-header">
 	  			      <p style={{fontSize: '16pt'}} class={(light)?("txt-light"):("txt-dark")}>
-		  			      Which is better?
+		  			      Which is better?????
 			  	      </p>
   			      </div>
 	  	      </div>
