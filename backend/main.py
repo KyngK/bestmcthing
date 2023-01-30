@@ -12,7 +12,7 @@ from waitress import serve
 app = Flask(__name__)
 
 # flask app
-@app.route("/api")
+@app.route("/ba24d209-064f-41a9-bffc-f5050a574e16")
 def index():
     global buffer
     global things

@@ -24,7 +24,7 @@ function App() {
   const [light, setlight] = useState(false);
 
   useEffect(() => {
-    fetch("/api").then(
+    fetch("/ba24d209-064f-41a9-bffc-f5050a574e16").then(
       resp => resp.json()  
     ).then(
       data => {
@@ -49,7 +49,7 @@ function App() {
   const vote = (id0, id1, skip) =>{
     setDisabled(true)
     setData(baseData);
-    fetch("/api?0=".concat(id0, "&1=", id1, (skip)?("&skip"):("")))
+    fetch("/ba24d209-064f-41a9-bffc-f5050a574e16?0=".concat(id0, "&1=", id1, (skip)?("&skip"):("")))
     .then(
       resp => resp.json()  
     ).then(
