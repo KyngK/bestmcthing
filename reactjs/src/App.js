@@ -78,7 +78,7 @@ function App() {
 		        <div class="center adj">
               <img class="title" alt="THE BEST THING" src="https://i.imgur.com/lHRDVRv.png"/>
   			      <div class="page-header">
-	  			      <p class={(light)?("txt-light"):("txt-dark")}>
+	  			      <p style={{fontSize: '16pt'}} class={(light)?("txt-light"):("txt-dark")}>
 		  			      Which is better?
 			  	      </p>
   			      </div>
@@ -93,7 +93,7 @@ function App() {
             <button type="button" disabled={disabled} onClick={() => vote(data[1].id, data[0].id, false)}>
               {data[0].title}
             </button>
-            <p class={(light)?("txt-light"):("txt-dark")}>
+            <p style={{fontSize: '16pt'}} class={(light)?("txt-light"):("txt-dark")}>
             {(data[0].summary==="")?(<><br></br><br></br><br></br></>):(data[0].summary)}
             </p>
 		      </div>
