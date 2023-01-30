@@ -109,10 +109,12 @@ button:active{
 .txt-dark{
   color: #ffffff;
   text-shadow: 4px 4px #000A;
+  font-size: 16pt;
 }
 .txt-light{
   color: #000;
   text-shadow: 4px 4px #00000020;
+  font-size: 16pt;
 }
 p{
   font-family: Minecraftia;
