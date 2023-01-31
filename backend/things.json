@@ -92,7 +92,7 @@
     {
         "title": "Slot",
         "summary": "A slot is a location in the data of a block entity or entity that an item stack can be placed in.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/HD_transparent_picture.png/800px-HD_transparent_picture.png",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Blank.png",
         "url": "https://minecraft.fandom.com/wiki/Slot"
     },
     {
@@ -2624,7 +2624,7 @@
     {
         "title": "Barrier",
         "summary": "Barrier is an invisible block used to create solid boundaries.",
-        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Blank.png",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/9/9e/Barrier_%28held%29_JE2_BE2.png",
         "url": "https://minecraft.fandom.com/wiki/Barrier"
     },
     {
