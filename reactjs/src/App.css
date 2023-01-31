@@ -29,7 +29,7 @@
   color: white;
 }
 .vcenter{
-  margin: auto;
+  margin: 4%;
 }
 .adj{
   display: inline-block;
@@ -60,6 +60,7 @@ button {
 }
 .vs{
   max-width: 30vh;
+  margin-left: -3%
 }
 button:hover{
   background-color: rgba(100, 100, 255, .45);
