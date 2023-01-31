@@ -29,7 +29,7 @@
   color: white;
 }
 .vcenter{
-  margin: auto;
+  margin: 4%;
 }
 .adj{
   display: inline-block;
@@ -60,6 +60,7 @@ button {
 }
 .vs{
   max-width: 30vh;
+  margin-left: -3%
 }
 button:hover.title{
   background-color: rgba(100, 100, 255, .45);
@@ -121,11 +122,21 @@ button.title{
   color: #ffffff;
   text-shadow: 4px 4px #000A;
   font-family: Minecraftia;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400pt;
+  max-height: 40pt;
 }
 .txt-light{
   color: #000;
   text-shadow: 4px 4px #00000020;
   font-family: Minecraftia;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400pt;
+  max-height: 40pt;
 }
 .toggletheme{
   position: fixed;
