@@ -116,7 +116,7 @@
     {
         "title": "Chat",
         "summary": "Chat is a messaging system used to communicate with other players, or to enter commands",
-        "image": "https://imgur.com/hwl0VJF",
+        "image": "https://imgur.com/hwl0VJF.png",
         "url": "https://minecraft.fandom.com/wiki/Chat"
     },
     {
@@ -128,7 +128,7 @@
     {
         "title": "Translucency",
         "summary": "Translucency is a concept very closely related to transparency",
-        "image": "https://imgur.com/uqDPlCA",
+        "image": "https://imgur.com/uqDPlCA.png",
         "url": "https://minecraft.fandom.com/wiki/Translucency"
     },
     {
@@ -176,7 +176,7 @@
     {
         "title": "Minecraft Now",
         "summary": "Minecraft Now is a series of online livestreams produced by Mojang Studios, where development information regarding Minecraft is presented, alongside community creations, live gameplay, and a Q&A with the developers",
-        "image": "https://imgur.com/YIC7qiO",
+        "image": "https://imgur.com/YIC7qiO.png",
         "url": "https://minecraft.fandom.com/wiki/Minecraft_Now"
     },
     {
@@ -308,7 +308,7 @@
     {
         "title": "Toasts",
         "summary": "Toasts are text boxes shown when the player unlocks new crafting recipes or loads up a new world",
-        "image": "https://imgur.com/apW8yr3",
+        "image": "https://imgur.com/apW8yr3.png",
         "url": "https://minecraft.fandom.com/wiki/Toasts"
     },
     {
@@ -482,13 +482,13 @@
     {
         "title": "Item modifier",
         "summary": "Item modifiers are technical JSON files that can be created inside data packs and are used to add loot functions into existing items using the command /item.",
-        "image": "https://imgur.com/2g7xrL3",
+        "image": "https://imgur.com/2g7xrL3.png",
         "url": "https://minecraft.fandom.com/wiki/Item_modifier"
     },
     {
         "title": "Social interactions",
         "summary": "The Social Interactions screen is a graphical interface used to disable chatting with certain players.",
-        "image": "https://imgur.com/rg0qAhA",
+        "image": "https://imgur.com/rg0qAhA.png",
         "url": "https://minecraft.fandom.com/wiki/Social_interactions"
     },
     {
@@ -698,7 +698,7 @@
     {
         "title": "Block update",
         "summary": "A block update is an in-game mechanism that occurs when a block is modified in some way.",
-        "image": "https://imgur.com/cK1IBTE",
+        "image": "https://imgur.com/cK1IBTE.png",
         "url": "https://minecraft.fandom.com/wiki/Block_update"
     },
     {
@@ -782,7 +782,7 @@
     {
         "title": "Permission level",
         "summary": "Permission level is used to describe permissions of a player or a command executor",
-        "image": "https://imgur.com/sCXSb8r",
+        "image": "https://imgur.com/sCXSb8r.png",
         "url": "https://minecraft.fandom.com/wiki/Permission_level"
     },
     {
@@ -1016,7 +1016,7 @@
     {
         "title": "Predicate",
         "summary": "Predicates are JSON structures found in multiple different locations within data packs.",
-        "image": "https://imgur.com/PAAzkBd",
+        "image": "https://imgur.com/PAAzkBd.png",
         "url": "https://minecraft.fandom.com/wiki/Predicate"
     },
     {
@@ -1064,7 +1064,7 @@
     {
         "title": "2\u00d72 grid",
         "summary": "The 2\u00d72 crafting grid is used for basic crafting using a subset of the possible crafting recipes.",
-        "image": "https://imgur.com/N2Ceiwt",
+        "image": "https://imgur.com/N2Ceiwt.png",
         "url": "https://minecraft.fandom.com/wiki/2%C3%972_grid"
     },
     {
@@ -1406,7 +1406,7 @@
     {
         "title": "Pause menu",
         "summary": "The pause menu is one of Minecraft's multiple menu screens.",
-        "image": "https://imgur.com/AS55bHk",
+        "image": "https://imgur.com/AS55bHk.png",
         "url": "https://minecraft.fandom.com/wiki/Pause_menu"
     },
     {
@@ -1748,7 +1748,7 @@
     {
         "title": "Data pack",
         "summary": "The data pack system provides a way for players to further customize their Minecraft experience",
-        "image": "https://imgur.com/5JHqk1d",
+        "image": "https://imgur.com/5JHqk1d.png",
         "url": "https://minecraft.fandom.com/wiki/Data_pack"
     },
     {
@@ -1946,7 +1946,7 @@
     {
         "title": "Tag",
         "summary": "Tags in data packs\u200c and behavior packs\u200c allow players to group different game elements together.",
-        "image": "https://imgur.com/khmpil7",
+        "image": "https://imgur.com/khmpil7.png",
         "url": "https://minecraft.fandom.com/wiki/Tag"
     },
     {
@@ -2138,7 +2138,7 @@
     {
         "title": "Loot table",
         "summary": "Loot tables are technical JSON files that are used to dictate what items should generate in various situations, such as what items should be in naturally generated containers, what items should drop when breaking a block or killing a mob, what items can be fished, and more",
-        "image": "https://imgur.com/PNR5ude",
+        "image": "https://imgur.com/PNR5ude.png",
         "url": "https://minecraft.fandom.com/wiki/Loot_table"
     },
     {
@@ -2414,7 +2414,7 @@
     {
         "title": "Chest loot",
         "summary": "Chest loot are items that can be found in a naturally-generated chest, depending on its location.",
-        "image": "https://imgur.com/6yPVsU9",
+        "image": "https://imgur.com/6yPVsU9.png",
         "url": "https://minecraft.fandom.com/wiki/Chest_loot"
     },
     {
@@ -2504,7 +2504,7 @@
     {
         "title": "Target selectors",
         "summary": "Target selectors are used in commands to select players and entities arbitrarily, without needing to specify an exact player name or a UUID.",
-        "image": "https://imgur.com/7j2inUL",
+        "image": "https://imgur.com/7j2inUL.png",
         "url": "https://minecraft.fandom.com/wiki/Target_selectors"
     },
     {
@@ -3170,7 +3170,7 @@
     {
         "title": "Instant mining",
         "summary": "Instant mining is a game mechanic in which 1 block can be broken per game tick without the delay of 3\u204410 of a second (6 ticks)",
-        "image": "https://imgur.com/PsLfZ6Y",
+        "image": "https://imgur.com/PsLfZ6Y.png",
         "url": "https://minecraft.fandom.com/wiki/Instant_mining"
     },
     {
@@ -3212,7 +3212,7 @@
     {
         "title": "Teleportation",
         "summary": "Teleportation is a form of transportation in which the moving object is instantaneously moved to its target location.",
-        "image": "https://imgur.com/je6LTGc",
+        "image": "https://imgur.com/je6LTGc.png",
         "url": "https://minecraft.fandom.com/wiki/Teleportation"
     },
     {
@@ -3830,7 +3830,7 @@
     {
         "title": "Death messages",
         "summary": "Death messages are messages sent in the chat to either all players or a specific player to announce the death of a player or pet.",
-        "image": "https://imgur.com/qjH6BNn",
+        "image": "https://imgur.com/qjH6BNn.png",
         "url": "https://minecraft.fandom.com/wiki/Death_messages"
     },
     {
@@ -4412,7 +4412,7 @@
     {
         "title": "Recipe",
         "summary": "Recipes are a way to gradually guide new players into Minecraft by assisting them with the usage of crafting, smelting, and other block and item transformations in-game.",
-        "image": "https://imgur.com/ocpxFms",
+        "image": "https://imgur.com/ocpxFms.png",
         "url": "https://minecraft.fandom.com/wiki/Recipe"
     },
     {
@@ -4472,7 +4472,7 @@
     {
         "title": "Seed (level generation)",
         "summary": "Seeds are values made up of character(s) (including negative or positive integers) that are used as the basis for generating every Minecraft world.",
-        "image": "https://imgur.com/V6qAW5Y",
+        "image": "https://imgur.com/V6qAW5Y.png",
         "url": "https://minecraft.fandom.com/wiki/Seed_(level_generation)"
     },
     {
@@ -4784,7 +4784,7 @@
     {
         "title": "Controls",
         "summary": "Java and Bedrock editions for Windows uses the standard control scheme of mouse and keyboard controls as input",
-        "image": "https://imgur.com/nL2cE5R",
+        "image": "https://imgur.com/nL2cE5R.png",
         "url": "https://minecraft.fandom.com/wiki/Controls"
     },
     {
@@ -4922,7 +4922,7 @@
     {
         "title": "Ambience",
         "summary": "Ambience (also called ambience sounds or ambient sounds) are sounds that can be heard in specific conditions.",
-        "image": "https://imgur.com/gSZIbeT",
+        "image": "https://imgur.com/gSZIbeT.png",
         "url": "https://minecraft.fandom.com/wiki/Ambience"
     },
     {
@@ -5576,7 +5576,7 @@
     {
         "title": "Adventure",
         "summary": "Adventure mode is a game mode intended for player-created maps, limiting some of the gameplay in Minecraft",
-        "image": "https://imgur.com/0VXNFUi",
+        "image": "https://imgur.com/0VXNFUi.png",
         "url": "https://minecraft.fandom.com/wiki/Adventure"
     },
     {
@@ -5690,7 +5690,7 @@
     {
         "title": "Server",
         "summary": "Minecraft servers allow players to play online or via a local area network with other people",
-        "image": "https://imgur.com/ZD5PTDM",
+        "image": "https://imgur.com/ZD5PTDM.png",
         "url": "https://minecraft.fandom.com/wiki/Server"
     },
     {
