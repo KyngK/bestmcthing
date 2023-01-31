@@ -26,15 +26,7 @@ def index():
                 vote_time=datetime.now(),
                 winner=None,
                 loser=None,
-            )
-        )
-    elif 'skip' in args:
-        votes.append(
-            Vote(
-                valid=True,
-                vote_time=datetime.now(),
-                winner=None,
-                loser=None
+                skip=False
             )
         )
     elif args:
@@ -58,36 +50,47 @@ def index():
             expire_time = list(matched_set - sent_set)[0]
             if datetime.now() > expire_time:
                 buffer.remove(matched_set)
-                return Response("Request expired", status=400)
+            elif not 'skip' in args:
+                # update scores
+                downvote.score -= 1
+                upvote.score += 1
 
-            # update scores
-            downvote.score -= 1
-            upvote.score += 1
+                buffer.remove(matched_set)
 
-            buffer.remove(matched_set)
-
-            votes.append(
-                Vote(
-                    valid=True,
-                    vote_time=datetime.now(),
-                    winner=upvote,
-                    loser=downvote
+                votes.append(
+                    Vote(
+                        valid=True,
+                        vote_time=datetime.now(),
+                        winner=upvote,
+                        loser=downvote,
+                        skip=False
+                    )
                 )
-            )
+            else:
+                votes.append(
+                    Vote(
+                        valid=True,
+                        vote_time=datetime.now(),
+                        winner=upvote,
+                        loser=downvote,
+                        skip=True
+                    )
+                )
         except StopIteration:
             votes.append(
                 Vote(
                     valid=False,
                     vote_time=datetime.now(),
                     winner=upvote or upvote_id,
-                    loser=downvote or downvote_id
+                    loser=downvote or downvote_id,
+                    skip=bool('skip' in args)
                 )
             )
 
     # return two random things
     # sort list by impressions, ascending
     random.shuffle(things)
-    things.sort(key=lambda x: x.impressions)
+    things.sort(key=lambda x: x.votes)
 
     # get two random things
     thing1 = things[0]

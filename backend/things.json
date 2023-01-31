@@ -302,7 +302,7 @@
     {
         "title": "Structure Air",
         "summary": "Structure air is an invisible block of unknown use.",
-        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d2/Blank.png",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/d/d9/Structure_Air_%28held%29_BE1.png",
         "url": "https://minecraft.fandom.com/wiki/Structure_Air"
     },
     {
@@ -3667,8 +3667,8 @@
     },
     {
         "title": "Superflat",
-        "summary": "Superflat JE or Flat BE is a world type or a vanilla world preset replacing the normal varied terrain of the Overworld, with customizable layers.",
-        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/5/55/Enchanted_Book.gif",
+        "summary": "Superflat (Java Edition) or Flat (Bedrock Edition) is a world type or a vanilla world preset replacing the normal varied terrain of the Overworld, with customizable layers.",
+        "image": "https://static.wikia.nocookie.net/minecraft_gamepedia/images/a/ab/Default_Superflat_world.png",
         "url": "https://minecraft.fandom.com/wiki/Superflat"
     },
     {

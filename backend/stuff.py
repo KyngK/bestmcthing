@@ -26,12 +26,18 @@ class Vote:
         vote_time: datetime,
         winner: Thing,
         loser: Thing,
+        skip: bool
     ):
         self.valid = valid
         self.vote_time = vote_time
 
         self.winner = winner
         self.loser = loser
+        self.skip = skip
+
+        # increment votes
+        winner.votes += 1
+        loser.votes += 1
 
 
 def get_things(path):
