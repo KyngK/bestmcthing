@@ -107,7 +107,7 @@ function App() {
             <button disabled={disabled} type="button" onClick={() => vote(data[0].id, data[1].id, false)}>
               {data[1].title}
             </button>
-            <p class={(light)?("txt-light"):("txt-dark")}>
+            <p style={{fontSize: '16pt'}} class={(light)?("txt-light"):("txt-dark")}>
               {(data[1].summary==="")?(<><br></br><br></br><br></br></>):(data[1].summary)}
             </p>
 		      </div>
