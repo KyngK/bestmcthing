@@ -98,7 +98,7 @@ function App() {
             </p>
 		      </div>
           <div class="vcenter center col-md-2">
-            <img class="vs" alt="Versus" src="https://upload.wikimedia.org/wikipedia/commons/7/70/Street_Fighter_VS_logo.png" />
+            <img class="vs" alt="Versus" src="https://i.imgur.com/wyZeuQn.png" />
           </div>
           <div class="center col-md-5">
           <div class="img">
