@@ -19,6 +19,10 @@ function App() {
       url:""
     }
   ]
+  const populateBaseData = () =>{
+    baseData[0].image = data[0].image;
+    baseData[1].image = data[1].image;
+  }
   var [disabled, setDisabled] = useState(true);
   var [data, setData] = useState(baseData)
   const [light, setlight] = useState(false);
@@ -47,7 +51,8 @@ function App() {
   }
 
   const vote = (id0, id1, skip) =>{
-    setDisabled(true)
+    setDisabled(true);
+    populateBaseData();
     setData(baseData);
     fetch("/ba24d209-064f-41a9-bffc-f5050a574e16?0=".concat(id0, "&1=", id1, (skip)?("&skip"):("")))
     .then(
