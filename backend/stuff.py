@@ -36,8 +36,11 @@ class Vote:
         self.skip = skip
 
         # increment votes
-        winner.votes += 1
-        loser.votes += 1
+        try:
+            winner.votes += 1
+            loser.votes += 1
+        except Exception as e:
+            self.e = e
 
 
 def get_things(path):
