@@ -98,11 +98,12 @@ function App() {
             <button type="button" disabled={disabled} onClick={() => vote(data[1].id, data[0].id, false)}>
               {data[0].title}
             </button>
-            <p style={{fontSize: '16pt'}} class={(light)?("txt-light"):("txt-dark")}>
-            {(data[0].summary==="")?(<><br></br><br></br><br></br></>):(data[0].summary)}
-            </p>
+            <div>
+              <p class={(light)?("txt-light"):("txt-dark")}>
+              {(data[0].summary==="")?(<><br></br><br></br><br></br></>):(data[0].summary)}</p>
+            </div>
 		      </div>
-          <div class="vcenter center col-md-2">
+          <div class="col-md-2 vcenter center">
             <img class="vs" alt="Versus" src="https://i.imgur.com/wyZeuQn.png" />
           </div>
           <div class="center col-md-5">
@@ -112,7 +113,7 @@ function App() {
             <button disabled={disabled} type="button" onClick={() => vote(data[0].id, data[1].id, false)}>
               {data[1].title}
             </button>
-            <p style={{fontSize: '16pt'}} class={(light)?("txt-light"):("txt-dark")}>
+            <p class={(light)?("txt-light"):("txt-dark")}>
               {(data[1].summary==="")?(<><br></br><br></br><br></br></>):(data[1].summary)}
             </p>
 		      </div>
