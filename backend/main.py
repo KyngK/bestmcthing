@@ -93,17 +93,20 @@ def index():
     things.sort(key=lambda x: x.votes)
 
     # get two random things
-    thing1 = things[0]
-    thing2 = things[1]
+    try:
+        thing1 = things[0]
+        thing2 = things[1]
 
-    # increase impressions count
-    thing1.impressions += 1
-    thing2.impressions += 1
+        # increase impressions count
+        thing1.impressions += 1
+        thing2.impressions += 1
 
-    # add to buffer, and send two things
-    expire_time = datetime.now() + timedelta(hours=1)
-    buffer.append({thing1, thing2, expire_time})
-    return [thing1.json, thing2.json]
+        # add to buffer, and send two things
+        expire_time = datetime.now() + timedelta(hours=1)
+        buffer.append({thing1, thing2, expire_time})
+        return [thing1.json, thing2.json]
+    except Exception as e:
+        print(e)
 
 
 def save():
