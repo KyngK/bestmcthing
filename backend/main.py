@@ -106,7 +106,7 @@ def index():
         buffer.append({thing1, thing2, expire_time})
         return [thing1.json, thing2.json]
     except Exception as e:
-        print(e)
+        print(e, things[-10:)
 
 
 def save():
