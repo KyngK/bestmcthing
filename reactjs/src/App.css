@@ -66,6 +66,8 @@ button:hover{
   background-color: rgba(100, 100, 255, .45);
   background-blend-mode:overlay;
   text-shadow: 4px 4px #202013CC;
+  border-color: #ffffff;
+  border-width: 2px;
 }
 button:active{
   box-shadow: inset -2px -4px #0004, inset 2px 2px #FFF5;
