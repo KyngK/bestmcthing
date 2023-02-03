@@ -78,7 +78,7 @@ function App() {
       <div class="container-fluid">
           <div class="row">
             <div class="center adj">
-              <input class="toggletheme" onClick={onCheck} type="image" src={(light)?("https://i.imgur.com/rvXYKZ9.png"):("https://i.imgur.com/OWXmoUk.png")} alt="toggle theme"></input>
+              <input id="toggletheme" onClick={onCheck} type="image" src={(light)?("https://i.imgur.com/rvXYKZ9.png"):("https://i.imgur.com/OWXmoUk.png")} alt="toggle theme"></input>
             </div>
 		        <div class="center adj">
               <img class="title" alt="THE BEST THING" src="https://i.imgur.com/lHRDVRv.png"/>
@@ -88,6 +88,9 @@ function App() {
 			  	      </p>
   			      </div>
 	  	      </div>
+            <div class="center adj">
+              <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/Y6uToji2bkg"><img id="YT" alt="YouTube video" src="https://www.freepnglogos.com/uploads/youtube-play-red-logo-png-transparent-background-6.png"/></a>
+            </div>
 	        </div>
           
 	      <div class="row">
