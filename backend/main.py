@@ -107,6 +107,7 @@ def index():
         return [thing1.json, thing2.json]
     except Exception as e:
         print(e)
+        print(datetime.now().strftime("%m/%d/%Y %H:%M:%S"), len(things))
 
 
 def save():
