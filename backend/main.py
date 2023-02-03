@@ -108,6 +108,7 @@ def index():
     except Exception as e:
         print(e)
         print(datetime.now().strftime("%m/%d/%Y %H:%M:%S"), len(things))
+        return []
 
 
 def save():
