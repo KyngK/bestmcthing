@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bestmcthing/static/css/main.7e77e9f5.css",
-    "main.js": "/bestmcthing/static/js/main.90f46c93.js",
+    "main.css": "/bestmcthing/static/css/main.51fb1e77.css",
+    "main.js": "/bestmcthing/static/js/main.577dce49.js",
     "static/js/787.fade2e9e.chunk.js": "/bestmcthing/static/js/787.fade2e9e.chunk.js",
     "index.html": "/bestmcthing/index.html",
-    "main.7e77e9f5.css.map": "/bestmcthing/static/css/main.7e77e9f5.css.map",
-    "main.90f46c93.js.map": "/bestmcthing/static/js/main.90f46c93.js.map",
+    "main.51fb1e77.css.map": "/bestmcthing/static/css/main.51fb1e77.css.map",
+    "main.577dce49.js.map": "/bestmcthing/static/js/main.577dce49.js.map",
     "787.fade2e9e.chunk.js.map": "/bestmcthing/static/js/787.fade2e9e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e77e9f5.css",
-    "static/js/main.90f46c93.js"
+    "static/css/main.51fb1e77.css",
+    "static/js/main.577dce49.js"
   ]
 }
