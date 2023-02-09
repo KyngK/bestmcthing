@@ -1,22 +1,70 @@
-# bestmcthing
-A small collaborative project, inspired by [this](https://www.youtube.com/watch?v=ALy6e7GbDRQ) video by Tom Scott, in an attempt to find the best Minecraft thing.
+# Getting Started with Create React App
 
-## Scraping
-The following information was grabbed from the [Minecraft Fandom](https://minecraft.fandom.com) with [pymediawiki](https://github.com/barrust/mediawiki):
-- Title
-- Summary (first sentence of each page)
-- Image (using a custom scraper script)
-- URL
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-All of this information was stored to a JSON file with around 8,000 articles found. We then wrote some cleanup scripts to remove the duplicates, articles on versions, people, etc. until we were left with around 2,000 left. From there, we went through them manually to get the existing list of 971 things.
+## Available Scripts
 
-## Website
-The website is currently available at [bestmcthing.ardun.me](https://bestmcthing.ardun.me)
+In the project directory, you can run:
 
-## Backend
-To install, clone the repository and install the requirements. `cd backend` and `python main.py` to start it on `localhost:8080`
+### `npm start`
 
-The API is available at `localhost:8080/ba24d209-064f-41a9-bffc-f5050a574e16`. This UUID was originally put in place to obscure the API, however this didn't end up working for various reasons. When the user initially starts voting, you make an http get request to the base page (`localhost:8080/ba24d209-064f-41a9-bffc-f5050a574e16` if you're developing locally), and that gives you a JSON list. That list contains two dictionaries, each of which contains the item info (image, url, title, summary, id). When the user votes, you send back a get request to `localhost:8080/ba24d209-064f-41a9-bffc-f5050a574e16?0=id&1=id`. The two parameters are `0` and `1`. `0` indicates the ID of the item the user wants to downvote, and `1` indicates the ID of the item the user wants to upvote. The backend then saves this info, and sends back (with that same request) another set of items, and the cycle continues. If the user leaves, and doesn't vote for an item after an hour, the ID won't be valid anymore. Also if you send a request with IDs that haven't been requested, or IDs that were requested then voted with, the API will pretend like nothing happened but count it as an invalid request, to prevent scripts from spam voting (; If the user wants to skip you can send a skip parameter (`localhost:8080/ba24d209-064f-41a9-bffc-f5050a574e16?0=id&1=id&skip`) and the backend will log a skipped vote.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Frontend
-The frontend can be run by navigating to the `reactjs` directory, running `npm install`, and `npm start`. Please note that the `npm start` command contains some SSL certificate files and hosts it on port 443, so you may want to modify this for your own needs.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
+
+### `npm test`
+
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm run build`
+
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
