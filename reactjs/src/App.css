@@ -111,7 +111,7 @@ button:active{
   text-shadow: 4px 4px #000A;
   font-family: Minecraftia;
   text-align: center;
-  font-size: 16pt;
+  font-size: 32pt;
 
 }
 .txt-light{
@@ -119,7 +119,7 @@ button:active{
   text-shadow: 4px 4px #00000020;
   font-family: Minecraftia;
   text-align: center;
-  font-size: 16pt;
+  font-size: 32pt;
 }
 #toggletheme{
   position: fixed;
