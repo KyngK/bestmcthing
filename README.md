@@ -1,6 +1,8 @@
 # bestmcthing
 A small collaborative project, inspired by [this](https://www.youtube.com/watch?v=ALy6e7GbDRQ) video by Tom Scott, in an attempt to find the best Minecraft thing.
 
+Quick disclaimer: All the code in this repository is... kinda bad. This was all sort of just thrown together in an attempt to make it as fast as we could, which may or may not have been a good idea. Anyways, if you end up on r/eyebleach after reading this, don't say I didn't warn you (:
+
 ## Scraping
 The following information was grabbed from the [Minecraft Fandom](https://minecraft.fandom.com) with [pymediawiki](https://github.com/barrust/mediawiki):
 - Title
