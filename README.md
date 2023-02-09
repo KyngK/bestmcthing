@@ -11,7 +11,7 @@ The following information was grabbed from the [Minecraft Fandom](https://minecr
 All of this information was stored to a JSON file with around 8,000 articles found. We then wrote some cleanup scripts to remove the duplicates, articles on versions, people, etc. until we were left with around 2,000 left. From there, we went through them manually to get the existing list of 971 things.
 
 ## Website
-The website is currently available at [bestmcthing.ardun.me](https://bestmcthing.ardun.me)
+The website was available at [bestmcthing.ardun.me](https://bestmcthing.ardun.me).
 
 ## Backend
 To install, clone the repository and install the requirements. `cd backend` and `python main.py` to start it on `localhost:8080`
