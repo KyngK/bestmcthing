@@ -121,11 +121,18 @@ button:active{
   text-align: center;
   font-size: 16pt;
 }
-.toggletheme{
+#toggletheme{
   position: fixed;
   left: -1vh;
   top: -1vh;
   height: 10vh;
+}
+#YT{
+  position: fixed;
+  right: 1.75vh;
+  top: 1.75vh;
+  height: 5vh;
+  max-height: 5vh;
 }
 .img{
   contain: size;
